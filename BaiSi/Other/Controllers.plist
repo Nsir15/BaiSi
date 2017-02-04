@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>NXEssenceController</string>
+		<key>title</key>
+		<string>精华</string>
+		<key>imageName</key>
+		<string>tabBar_essence_icon</string>
+		<key>imageClickName</key>
+		<string>tabBar_essence_click_icon</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>NXNewController</string>
+		<key>title</key>
+		<string>最新</string>
+		<key>imageName</key>
+		<string>tabBar_new_icon</string>
+		<key>imageClickName</key>
+		<string>tabBar_new_click_icon</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>NXPublishController</string>
+		<key>title</key>
+		<string></string>
+		<key>imageName</key>
+		<string>tabBar_publish_icon</string>
+		<key>imageClickName</key>
+		<string>tabBar_publish_click_icon</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>NXFriendTrendController</string>
+		<key>title</key>
+		<string>关注</string>
+		<key>imageName</key>
+		<string>tabBar_friendTrends_icon</string>
+		<key>imageClickName</key>
+		<string>tabBar_friendTrends_click_icon</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>NXMeController</string>
+		<key>title</key>
+		<string>我</string>
+		<key>imageName</key>
+		<string>tabBar_me_icon</string>
+		<key>imageClickName</key>
+		<string>tabBar_me_click_icon</string>
+	</dict>
+</array>
+</plist>
