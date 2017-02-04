@@ -43,7 +43,6 @@
 
 - (void)createChildController:(Class)class title:(NSString *)title imageName:(NSString *)imageName imageClickName:(NSString *)imageClickName
 {
-    NXFuncLog();
     UIViewController * vc = [[class alloc]init];
     if ([title isEqualToString:@""]) {
 //        vc.tabBarItem.image = [UIImage imageNamed:imageName];

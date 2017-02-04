@@ -35,6 +35,7 @@
     //自定义返回按钮会导致系统默认的滑动返回功能失效。
     if (self.childViewControllers.count >0) {
         viewController.navigationItem.leftBarButtonItem = [UINavigationItem backButtonItemWithImage:@"navigationButtonReturn" highLightImage:@"navigationButtonReturnClick" target:self action:@selector(backClick) title:@"返回"];
+        viewController.hidesBottomBarWhenPushed = YES;
     }
 // NSLog(@"self.interactivePopGestureRecognizer:%@",self.interactivePopGestureRecognizer);
     //真正去跳转

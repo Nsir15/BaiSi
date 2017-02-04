@@ -7,7 +7,6 @@
 //
 
 #import "NXAdViewController.h"
-#import <AFNetworking/AFNetworking.h>
 #import <MJExtension/MJExtension.h>
 #import "NXAdModel.h"
 #import "NXMainController.h"
@@ -15,13 +14,6 @@
 static const NSString * code2 = @"phcqnauGuHYkFMRquANhmgN_IauBThfqmgKsUARhIWdGULPxnz3vndtkQW08nau_I1Y1P1Rhmhwz5Hb8nBuL5HDknWRhTA_qmvqVQhGGUhI_py4MQhF1TvChmgKY5H6hmyPW5RFRHzuET1dGULnhuAN85HchUy7s5HDhIywGujY3P1n3mWb1PvDLnvF-Pyf4mHR4nyRvmWPBmhwBPjcLPyfsPHT3uWm4FMPLpHYkFh7sTA-b5yRzPj6sPvRdFhPdTWYsFMKzuykEmyfqnauGuAu95Rnsnbfknbm1QHnkwW6VPjujnBdKfWD1QHnsnbRsnHwKfYwAwiu9mLfqHbD_H70hTv6qnHn1PauVmynqnjclnj0lnj0lnj0lnj0lnj0hThYqniuVujYkFhkC5HRvnB3dFh7spyfqnW0srj64nBu9TjYsFMub5HDhTZFEujdzTLK_mgPCFMP85Rnsnbfknbm1QHnkwW6VPjujnBdKfWD1QHnsnbRsnHwKfYwAwiuBnHfdnjD4rjnvPWYkFh7sTZu-TWY1QW68nBuWUHYdnHchIAYqPHDzFhqsmyPGIZbqniuYThuYTjd1uAVxnz3vnzu9IjYzFh6qP1RsFMws5y-fpAq8uHT_nBuYmycqnau1IjYkPjRsnHb3n1mvnHDkQWD4niuVmybqniu1uy3qwD-HQDFKHakHHNn_HR7fQ7uDQ7PcHzkHiR3_RYqNQD7jfzkPiRn_wdKHQDP5HikPfRb_fNc_NbwPQDdRHzkDiNchTvwW5HnvPj0zQWndnHRvnBsdPWb4ri3kPW0kPHmhmLnqPH6LP1ndm1-WPyDvnHKBrAw9nju9PHIhmH9WmH6zrjRhTv7_5iu85HDhTvd15HDhTLTqP1RsFh4ETjYYPW0sPzuVuyYqn1mYnjc8nWbvrjTdQjRvrHb4QWDvnjDdPBuk5yRzPj6sPvRdgvPsTBu_my4bTvP9TARqnam";
 
 static  NSString * adUrl = @"http://mobads.baidu.com/cpro/ui/mads.php";
-
-#define SCREENH     [UIScreen mainScreen].bounds.size.height
-#define SCREENW     [UIScreen mainScreen].bounds.size.width
-#define iPhone4     SCREENH == 480
-#define iPhone5     SCREENH == 568
-#define iPhone6     SCREENH == 667
-#define iPhone6P     SCREENH == 736
 
 @interface NXAdViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *launchImage;
@@ -62,7 +54,7 @@ static  NSString * adUrl = @"http://mobads.baidu.com/cpro/ui/mads.php";
 }
 // 6p : 736； 6 : 667 ； 5 : 568 ； 4 : 480；
 - (void)setUpBg{
-    NSString * imageName;
+    NSString * imageName=@"";
     if (iPhone4) {
         imageName = @"LaunchImage-700";
     }else if (iPhone5){
@@ -76,25 +68,26 @@ static  NSString * adUrl = @"http://mobads.baidu.com/cpro/ui/mads.php";
 }
 
 - (void)getAdData{
-    AFHTTPSessionManager * mgr = [AFHTTPSessionManager manager];
     NSMutableDictionary * params = [NSMutableDictionary dictionary];
     params[@"code2"] = code2;
-    [mgr GET:adUrl parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"responseObject:%@",responseObject);
-        [responseObject writeToFile:@"/Users/nancy/work/Practise/BaiSi/ad.plist" atomically:YES];
-        _model = [[NXAdModel alloc]init];
-       NSDictionary * adDict = [responseObject[@"ad"] lastObject];
-        [_model mj_setKeyValues:adDict];
-        if(_model.w >0){
-            CGFloat h = SCREENW / _model.w * _model.h;
-            self.adImageView.frame = CGRectMake(0, 0, SCREENW, h);
-            [self.adImageView sd_setImageWithURL:[NSURL URLWithString:_model.w_picurl]];
-        }
+    
+    [NXRequest requetsType:GET url:adUrl params:params finish:^(NSDictionary *result, NSError *error) {
+        if (!error) {
+            NXLog(@"request-----respodes:%@",result);
+            [result writeToFile:@"/Users/nancy/work/Practise/BaiSi/ad.plist" atomically:YES];
+            _model = [[NXAdModel alloc]init];
+            NSDictionary * adDict = [result[@"ad"] lastObject];
+            [_model mj_setKeyValues:adDict];
+            if(_model.w >0){
+                CGFloat h = SCREENW / _model.w * _model.h;
+                self.adImageView.frame = CGRectMake(0, 0, SCREENW, h);
+                [self.adImageView sd_setImageWithURL:[NSURL URLWithString:_model.w_picurl]];
+            }
 
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"error:%@",error);
+        }else
+        {
+            NXLog(@"error:%@",error);
+        }
     }];
 }
 - (UIImageView *)adImageView{

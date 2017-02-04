@@ -1,0 +1,31 @@
+//
+//  Common.pch
+//  BaiSi
+//
+//  Created by N-X on 2017/2/4.
+//  Copyright © 2017年 Marauder. All rights reserved.
+//
+
+#ifndef Common_pch
+#define Common_pch
+
+#import "NXRequest.h"
+
+
+#define weakify(x)    __weak  typeof(x)weak##x = x
+#define SCREENH     [UIScreen mainScreen].bounds.size.height
+#define SCREENW     [UIScreen mainScreen].bounds.size.width
+#define iPhone4     SCREENH == 480
+#define iPhone5     SCREENH == 568
+#define iPhone6     SCREENH == 667
+#define iPhone6P     SCREENH == 736
+
+#ifdef DEBUG
+#define NXLog(...)   NSLog(__VA_ARGS__)
+#define NXFuncLog()  NSLog(@"%s",__func__)
+#else
+#define NXLog(...)
+#endif
+
+
+#endif /* Common_pch */

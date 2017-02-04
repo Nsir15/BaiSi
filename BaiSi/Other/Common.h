@@ -9,13 +9,5 @@
 #ifndef Common_h
 #define Common_h
 
-#define weakify(x)    __weak  typeof(x)weak##x = x    
-
-#ifdef DEBUG
-#define NXLog(...)   NSLog(__VA_ARGS__)
-#define NXFuncLog()  NSLog(@"%s",__func__)
-#else
-#define NXLog(...)
-#endif
 
 #endif /* Common_h */
