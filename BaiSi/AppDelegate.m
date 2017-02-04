@@ -24,7 +24,7 @@
     
     NXAdViewController * advc = [[NXAdViewController alloc]init];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = advc;//[[NXMainController alloc]init];
+    self.window.rootViewController = advc;
     [self.window makeKeyAndVisible];
     return YES;
 }
