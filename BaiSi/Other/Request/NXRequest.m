@@ -7,12 +7,23 @@
 //
 
 #import "NXRequest.h"
-#import <AFNetworking/AFNetworking.h>
+@interface NXRequest()
+@property (nonatomic ,strong)AFHTTPSessionManager *manager;
+@end
 @implementation NXRequest
-+(void)requetsType:(requestType)type url:(NSString *)url params:(NSDictionary *)params finish:(void(^)(id  result,NSError * error))finish{
+static AFHTTPSessionManager * manager;
+- (AFHTTPSessionManager *)shareManager{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [AFHTTPSessionManager manager];
+    });
+    return manager;
+}
+-(void)requetsType:(requestType)type url:(NSString *)url params:(NSDictionary *)params  finish:(void(^)(id  result,NSError * error))finish{
     
-    AFHTTPSessionManager * mgr = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager * mgr = [self shareManager];
     mgr.requestSerializer.timeoutInterval = 5;
+    _manager = mgr;
     switch (type) {
         case GET:
         {
@@ -42,5 +53,9 @@
             break;
     }
   
+}
+- (void)cancelTasks
+{
+    [self.manager.tasks makeObjectsPerformSelector:@selector(cancel)];
 }
 @end

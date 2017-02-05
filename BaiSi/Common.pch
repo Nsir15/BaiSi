@@ -9,7 +9,7 @@
 #ifndef Common_pch
 #define Common_pch
 
-#import "NXRequest.h"
+#import "UIView+NXFrame.h"
 
 #define NXColor(r,g,b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 #define weakify(x)    __weak  typeof(x)weak##x = x
@@ -26,6 +26,19 @@
 #else
 #define NXLog(...)
 #endif
+
+
+#define  SINGLETON_INTERFACE(className)     +(className*)share##className;
+
+#define  SINGLETON_IMPLEMENT(className)\
++ (className*)share##className{\
+    static className *instance = nil;\
+    dispatch_once_t  onceToken ;\
+    dispatch_once(&onceToken, ^{\
+        instance = [[className alloc]init];\
+    });\
+    return instance;\
+}\
 
 
 #endif /* Common_pch */

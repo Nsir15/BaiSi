@@ -16,13 +16,13 @@
 			<key>adtd</key>
 			<integer>0</integer>
 			<key>anti_tag</key>
-			<integer>111</integer>
+			<integer>1</integer>
 			<key>bid</key>
 			<string></string>
 			<key>clklogurl</key>
 			<string></string>
 			<key>curl</key>
-			<string>http://m.baidu.com/mobads.php?YacK00jCmVBE6VakpszQkmafbjyAl8AJqS0-Fu4YTEtt_rL86lUNZJ0_UHh12q-Z79_g9GbhsT9vHYvwYYm3zB-Lk4HSFHmKVU9q7oNXCJg3HmrJK1biEqfK18lKn4-cBWTTVwR.Db_iX1Hen8HzlPacny8jOuOQSEt_YiknFzIhz1kH84mTTzs1f_IhS8zVf0.UMfqn6KLmgKxmvqEpv--5H7KfWI7nj6LnWRkfWTsP1mswj9AnRRdwj9af1R4f1fv0A4-Idq-XZKxpyw15fK9mvPY5gPbpsKbmdqzug7xTAVM5yPEUi4Jpy4MUA-8uz4BTLPJ0AwWgvPdpyfq0AFMIZ0qn0KWUAV9IZws5yPCmgFMufK-XAPCmy4MuNqYXgK-5H00mv9VujYk0Ad9IAPCgvPEuARqn0KWTA7xTLw9IZN15HDv0AqsI7qYXgK-5HD0TAPvTWYk0A7bmh-b5Hfsn0KsTh-WuHY1PW00myPY5HD0uANvgLws5y7sTAk-Qy-fpAq8uHT_n6K1UWdjnjFDnHFAnzY1nRm3QHfvf1cVfRcknzY1njF7njDYfRPDwbR0ULnqpyq1QHb8n6K9TZKGujd-nWf3njI-PfKWIZcqmLwzrWDznj0_mywJIgPYrW00Tv9EI1Ys0AP_pyPo5HD0TA9EUhRqn0K9IjYz0ZKzULuGUhP-5Hc30APGIZbqPH0k0A4ETjYYPW0sPsKsThqb5gF1TAk9Tv60TvPCUyfqnfK1TjY1P6K1TL0qn6KhUWY0IAYqn0KYIHYznj03rjbz0Zwb5H00IgF_5fKWpjY0uZPspyfqP6KsUA7WuNqGujY0uANvpyP-gv-b5Hc0mMF9UhfqmgKsUAR0TZFGmvNxpyfqn6KhpgF1I7qYTh7buHY1PsK1uyPEUhwxIZF9uARqn1TsP6K8ugwxIZ-suNqGujYk0A7YUvdxpyfqn0K_mMPxpyfqn0KGI7qGujYs0A7bgLnquHP-njFhnhfkn1fLrjn3P6KETdqGujYkQHb8n6KVuywGmNqYXgK-5H00TvNWgvwEUy7GUWdCIZwsTsKBIgPGUhN1TdqGujYs0AwGTLwzpyPYgv-b5H00uh-zTLwxIAqspynqn0K1uyPEUhwxIAqspynqn0KYpA-zu7qYULKGm1Ys0AI-Uhw-TWYs0A7MuHYs0Ad9TMFGmyI-5H00uh-zTLwxpgfqn0K1uyPEUhwxpgfqn0K1uAVxIWYz0A7bmvk9TLnqPjm0myPYpgu-gv7sTjYs0A7WIA-vuNqWmgw-uvqzXHYs0A7sTAkGTLwxpyfqn0K9TZKWmgw-gv-b5H00IgF_gv7sTAkGTLwxpyfqn0KdThkxmgKsmv7YuNqGujYs0ZI9UAkxTAqGUMfqn0K9mLwGIh7YuHYs0A78uZFEpywxpyfq0A7bXjYk0ZPbp1Y1QWm10ZK9mvV9uvRq0ZwYTjY10Au8TWYs0Z7YUHYkPj6vnWm4nj6k0A7sgv-b5H00UMwYTjY10A-vIZcqn0KWThnqPHbzn1D0</string>
+			<string>http://mobads.baidu.com/cpmad.html?url=pZwYTjCEQvk1Ug9BUyu4ua44UguGTjTsnH08mvqVQ1qGujdQQRmhUyNbpyDquHcYrj0LuHRhgdqVUvF9uZPxmLNzU7qWpANWp1Ykn16vrHfsrjcvFhN3T7qGujd1TBkYUzkbpBYkQZ-WQZw1QAu1QAkbQZ73QHc_uhn_TZC_mLK9QHcknashUhNLgvN3T7qGuZnqF-qxUyqBmyw1gvP_pyPopyfqIR9WygFJnDkdiD43Rj7VTv4cm1wfHM7JUhGAwA4cwb78X-bkU-FVnd7cuMuhnyPyu-FWpv4lyH78pbmLUhGDyyuiRDwLm-chgdqVUvF9uZPxmv99ThI-5N0kUgP8iAnYRD9xHA3kNAw8iAu-U-TsIMFcwAVfpbw-U-IhuA4cmhwznNFoThCsuy4cgLGzI-FlRACvTdKvRhwMI-K1N7IyQy4guWP8pbbVRD9yph4Jwbw8iDuKUMGuny4iUHPwiAuvuW7WNhuimvV8X-bkUhGAPv4Jw7-hR-KDIvFiugK4TH7wiAc3U-IyrNwpidqdpywZRbD4wNNCRbkwphPCw-IWnYuaUyw8pbwCwbFVp7KJUgP8p-wCw-IDpDuPwW7Rfy_4NZmvpDugwA9ANYw1Uh7VpA4GUy98mydCUW0hgdqVUvF9uZPxIADqURkLXMFgwZG8pWKxUg-Lib-MR7-zN10hgdqVUvF9uZPxTy_qPWcsm1f4uHwbPWTkuycYnaukIAYqnHf3PWcLPHbLnBuxgvdEmh7bTdqbmdq1IA7Y5NwnRZndiDuYiyILP7wKRM78yhVCNNIbIZNCPZCdiDVYiR7uTy4ppd-Fi7-lUhCsnLFJmMG3yMIBPR9QID-Mw-tduvVgTAGbIZNpRZPsXyukRDdomMNMIRIVIb43TZ-hTy4PpYFRpjT3IyGbrNwpidqduvV1NA6VNLNrTRIdp--lXD7dwdwPR7-MHZIlUg-LQHNcUbk3y-0VUgukrZRLTN-RpjIBIR9unN0knZu3fHfViHIkyN9MizdMIBdBPR6LIAdMIYNNHM7ZIyGuTL9KpYFRuZ7ZIyGuTL9KpYFRuZ7uyAIQQHNciLwsuLI3TZ-hTy4pp1-dPLDkPR9VXh4KU--zXNFuIyGVHA44HbFfpbVYNRkfXZK4uM78pNbYRNIAI7N4HhFsXHI3iNCVTLNcygP3y-0VUywkm-Nvuj-sXHPkT7GLyNwpRZwVHR3kTZbYQNwnRZ9sXyukU-GomMKMR7-RpadgiHIkwLNJygP3fNKbTZ-hTg9JP17FPL7uNRkQwvYkygP3pbm3IHIkyNNniYIVnN-1XAGfXMRLTN-NHDVZUH7uTL9KPvFVIh_4NDk8TNKJIgwdIb33IR7rXWNciLwVXRbVPR9QI7N4PLGRpaY4IguiTy4ppv9suYmkiHIkwY-JygP3y-0VUgukrZRLTRIFp--1XDDLTdwKpYIRHZI3TZ-hTy4pp1-RybVgUyILQyIvQycdiDVYiyIAgvIvPLPRfyVZNDkLXZK4uM78yhVbNA9oXAdMiLPVIWIuIR4kwLNJygP3yMIlTZ-FHgNMwM9suLI3iRDLHNfkuZwRIMIEuYkVTy4PpvwRIb4luYkLP7wKRM78yhVlIyTLX7wKNbYdXNK7NybYiMK4PDdNfiY3IgCYf-wnRDG3fRbVNywkTdwCTgmdiAPvXD7FQNNbTNIsuLTYPR9WpdKPp1-RPL7ZIyGuTL9KP7-FyWKkUbkorydnIYIFpD43UyIQT1NciLwVXNKuTAIdQyIvRj-FfR4PNRkAPjNciLwVXgT1PR6LIDbkyRk8NYVYTAGupv4gPMP3yMIuNAGung9piH-NfyV3ND7kwdNPuM78yh_4Ny9LX-NvQyFMIBdBPymhgdqVUvF9uZPxmyPWIjd1uA_hug9WpZws5H0hmv9VUvfqnau1mv9VUvfqnausTh-WuHYdnH6sFMPsTh-WuHYdnH6sFhd9IAPCgvPEuARqnafb&amp;encrypt=open</string>
 			<key>desc</key>
 			<string></string>
 			<key>dur</key>
@@ -44,17 +44,15 @@
 			<key>fwt</key>
 			<integer>2</integer>
 			<key>h</key>
-			<integer>1024</integer>
+			<integer>1280</integer>
 			<key>id</key>
-			<integer>3953776</integer>
+			<integer>7601295</integer>
 			<key>iv</key>
 			<integer>0</integer>
-			<key>lb_phone</key>
-			<string></string>
 			<key>mimetype</key>
 			<string>image/jpg</string>
 			<key>ori_curl</key>
-			<string>http://qmqj2.xy.com/idf/UNLNrn</string>
+			<string>http://lsmxbmfyd.ymvip7010.com/?id=K-F&amp;media=e24807e5</string>
 			<key>phone</key>
 			<string></string>
 			<key>pict</key>
@@ -62,7 +60,7 @@
 			<key>pk</key>
 			<string></string>
 			<key>qk</key>
-			<string>003c5470e3e02f2d13478386</string>
+			<string>0073fc8f620c49e4d671eb40</string>
 			<key>sb</key>
 			<integer>0</integer>
 			<key>sk</key>
@@ -76,7 +74,7 @@
 			<key>styt</key>
 			<integer>0</integer>
 			<key>surl</key>
-			<string>qmqj2.xy.com</string>
+			<string>lsmxbmfyd.ymvip7010.com</string>
 			<key>sz</key>
 			<integer>0</integer>
 			<key>theme</key>
@@ -86,15 +84,15 @@
 			<key>type</key>
 			<string>image</string>
 			<key>w</key>
-			<integer>768</integer>
+			<integer>720</integer>
 			<key>w_picurl</key>
-			<string>http://ubmcmm.baidustatic.com/media/v1/0f000ZtVORoUP-ucKBdlJ6.jpg</string>
+			<string>http://ubmcmm.baidustatic.com/media/v1/0f000PKg7UOd9RccLZT9df.jpg</string>
 			<key>wb</key>
 			<string></string>
 			<key>wi</key>
 			<integer>1</integer>
 			<key>winurl</key>
-			<string>http://wn.pos.baidu.com/adx.php?c=d25pZD1lM2UwMmYyZDEzNDc4Mzg2AHM9ZTNlMDJmMmQxMzQ3ODM4NgB0PTE0ODYyNjkwODEAc2U9MgBidT02AHByaWNlPVdKYXFtUUFEMEdkN2pFcGdXNUlBOHJNSF9PVmZuN0lzN2xNMGtnAGNoYXJnZV9wcmljZT0xOTk1AHNoYXJpbmdfcHJpY2U9MTk5NTAwMAB3aW5fZHNwPTYAY2htZD0xAGJkaWQ9AGNwcm9pZD0Ad2Q9Mzk1Mzc3NgBiY2htZD0wAHY9MQBpPTE3ZmEzZDFj&amp;ext=ZmNfdWlkPUMwMkQxMkYzLTMxRjgtNDZDMi1BQjEzLTMwMkUwMTRBQ0RGRSZmY19paWQ9MzEwNzc3JmZjX2V4PTUyMTE5JmZjX2xvPWJqJmZjX3VpZDE9QzAyRDEyRjMtMzFGOC00NkMyLUFCMTMtMzAyRTAxNEFDREZFJmZjX2lpZDE9OTQyOTQ0ODY5JmZjX2V4MT02MDQ4MDAmZmNfbG8xPWJqJmZjX3RrMT1tb2JhZHNfYXBwX3VzZXImZmNfdWlkND1DMDI</string>
+			<string>http://wn.pos.baidu.com/adx.php?c=d25pZD02MjBjNDllNGQ2NzFlYjQwAHM9NjIwYzQ5ZTRkNjcxZWI0MAB0PTE0ODYyNzU5NzIAc2U9MgBidT02AHByaWNlPVdKYkZoQUFFMGVsN2pFcGdXNUlBOGk0VURwOE5QNUNPV2lWcEhBAGNoYXJnZV9wcmljZT01MTgAc2hhcmluZ19wcmljZT01MTgwMDAAd2luX2RzcD02AGNobWQ9MQBiZGlkPQBjcHJvaWQ9AHdkPTc2MDEyOTUAYmNobWQ9MAB2PTEAaT1jNjVjMzRjYg&amp;ext=ZmNfdWlkPUMwMkQxMkYzLTMxRjgtNDZDMi1BQjEzLTMwMkUwMTRBQ0RGRSZmY19paWQ9NzM3NTE0JmZjX2V4PTQ1MjI4JmZjX2xvPWJqJmZjX3VpZDE9QzAyRDEyRjMtMzFGOC00NkMyLUFCMTMtMzAyRTAxNEFDREZFJmZjX2lpZDE9OTQyOTQ0ODY5JmZjX2V4MT02MDQ4MDAmZmNfbG8xPWJqJmZjX3RrMT1tb2JhZHNfYXBwX3VzZXImZmNfdWlkND1DMDI</string>
 		</dict>
 	</array>
 	<key>city</key>
@@ -132,7 +130,7 @@
 	<key>req_id</key>
 	<string></string>
 	<key>theme</key>
-	<string>new-1-4</string>
+	<string>new-2-4</string>
 	<key>u</key>
 	<string></string>
 	<key>x</key>

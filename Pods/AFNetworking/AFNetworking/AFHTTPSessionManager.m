@@ -284,7 +284,7 @@
             }
         } else {
             if (success) {
-                success(dataTask, responseObject);
+//                success(dataTask, responseObject);
             }
         }
     }];

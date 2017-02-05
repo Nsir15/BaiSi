@@ -10,10 +10,13 @@
 #import "NXRecommendCell.h"
 #import <MJExtension/MJExtension.h>
 #import "NXRecommendModel.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "NXRequest.h"
 static  NSString * _Nullable cellId = @"recommendCell";
 @interface NXRecommendViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic ,strong)UITableView *tableView;
 @property (nonatomic ,strong)NSMutableArray *dataArray;
+@property (nonatomic ,strong)NXRequest *request;
 @end
 
 @implementation NXRecommendViewController
@@ -37,17 +40,30 @@ static  NSString * _Nullable cellId = @"recommendCell";
     params[@"a"] = @"tag_recommend";
     params[@"action"] = @"sub";
     params[@"c"] = @"topic";
-    [NXRequest requetsType:GET url:url params:params finish:^(id result, NSError *error) {
+    [SVProgressHUD showWithStatus:@"正在加载中。。。"];
+    NXRequest * request = [[NXRequest alloc]init];
+    _request = request;
+    
+    [request requetsType:GET url:url params:params finish:^(id result, NSError *error) {
         if (!error) {
-            NXLog(@"result:%@",result);
+            [SVProgressHUD dismiss];
             [result writeToFile:@"/Users/nancy/work/Practise/BaiSi/submit.plist" atomically:YES];
-          _dataArray = [NXRecommendModel mj_objectArrayWithKeyValuesArray:result];
+            _dataArray = [NXRecommendModel mj_objectArrayWithKeyValuesArray:result];
             [self.tableView reloadData];
         }else
         {
             NXLog(@"error:%@",error);
+            [SVProgressHUD dismiss];
         }
+
     }];
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    // 停止下载
+//    [_manager.tasks makeObjectsPerformSelector:@selector(cancel)];
+    [_request cancelTasks];
+    [SVProgressHUD dismiss];
 }
 - (void)viewDidAppear:(BOOL)animated
 {

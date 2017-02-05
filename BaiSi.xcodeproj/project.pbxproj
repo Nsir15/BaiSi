@@ -24,6 +24,17 @@
 		B95FCB2E1E44B1EE00EC2F15 /* UINavigationItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = B95FCB2D1E44B1EE00EC2F15 /* UINavigationItem+item.m */; };
 		B95FCB311E44BF7200EC2F15 /* NXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95FCB301E44BF7200EC2F15 /* NXSettingViewController.m */; };
 		B95FCB341E44C38800EC2F15 /* NXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95FCB331E44C38800EC2F15 /* NXNavigationController.m */; };
+		B9A056C81E4725480015F3A8 /* NXFriendTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A056C71E4725480015F3A8 /* NXFriendTrendController.xib */; };
+		B9A056CC1E472B740015F3A8 /* NXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056CA1E472B740015F3A8 /* NXLoginViewController.m */; };
+		B9A056CD1E472B740015F3A8 /* NXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A056CB1E472B740015F3A8 /* NXLoginViewController.xib */; };
+		B9A056D01E47304F0015F3A8 /* NXLoginRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056CF1E47304F0015F3A8 /* NXLoginRegistView.m */; };
+		B9A056D21E4730670015F3A8 /* NXLoginRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A056D11E4730670015F3A8 /* NXLoginRegistView.xib */; };
+		B9A056DC1E4740EA0015F3A8 /* NXFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056DB1E4740EA0015F3A8 /* NXFastLoginView.m */; };
+		B9A056DE1E4740FA0015F3A8 /* NXFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A056DD1E4740FA0015F3A8 /* NXFastLoginView.xib */; };
+		B9A056E11E474CF90015F3A8 /* NXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056E01E474CF90015F3A8 /* NXButton.m */; };
+		B9A056E41E474E010015F3A8 /* UIView+NXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056E31E474E010015F3A8 /* UIView+NXFrame.m */; };
+		B9A056E71E4777BD0015F3A8 /* NXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056E61E4777BD0015F3A8 /* NXTextField.m */; };
+		B9A056EA1E4778350015F3A8 /* UITextField+NXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A056E91E4778350015F3A8 /* UITextField+NXTextField.m */; };
 		B9A380CB1DFD09FA00A7D1FD /* NXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A380CA1DFD09FA00A7D1FD /* NXTabBar.m */; };
 		B9B1A55D1DF993E40033E4ED /* Controllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9B1A55C1DF993E40033E4ED /* Controllers.plist */; };
 		B9B1A5601DF996990033E4ED /* NXPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B1A55F1DF996990033E4ED /* NXPublishController.m */; };
@@ -103,6 +114,24 @@
 		B95FCB301E44BF7200EC2F15 /* NXSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXSettingViewController.m; sourceTree = "<group>"; };
 		B95FCB321E44C38800EC2F15 /* NXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNavigationController.h; sourceTree = "<group>"; };
 		B95FCB331E44C38800EC2F15 /* NXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNavigationController.m; sourceTree = "<group>"; };
+		B9A056C71E4725480015F3A8 /* NXFriendTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXFriendTrendController.xib; sourceTree = "<group>"; };
+		B9A056C91E472B740015F3A8 /* NXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLoginViewController.h; sourceTree = "<group>"; };
+		B9A056CA1E472B740015F3A8 /* NXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLoginViewController.m; sourceTree = "<group>"; };
+		B9A056CB1E472B740015F3A8 /* NXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXLoginViewController.xib; sourceTree = "<group>"; };
+		B9A056CE1E47304F0015F3A8 /* NXLoginRegistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLoginRegistView.h; sourceTree = "<group>"; };
+		B9A056CF1E47304F0015F3A8 /* NXLoginRegistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLoginRegistView.m; sourceTree = "<group>"; };
+		B9A056D11E4730670015F3A8 /* NXLoginRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXLoginRegistView.xib; sourceTree = "<group>"; };
+		B9A056DA1E4740EA0015F3A8 /* NXFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXFastLoginView.h; sourceTree = "<group>"; };
+		B9A056DB1E4740EA0015F3A8 /* NXFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXFastLoginView.m; sourceTree = "<group>"; };
+		B9A056DD1E4740FA0015F3A8 /* NXFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXFastLoginView.xib; sourceTree = "<group>"; };
+		B9A056DF1E474CF90015F3A8 /* NXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXButton.h; sourceTree = "<group>"; };
+		B9A056E01E474CF90015F3A8 /* NXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXButton.m; sourceTree = "<group>"; };
+		B9A056E21E474E010015F3A8 /* UIView+NXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NXFrame.h"; sourceTree = "<group>"; };
+		B9A056E31E474E010015F3A8 /* UIView+NXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NXFrame.m"; sourceTree = "<group>"; };
+		B9A056E51E4777BD0015F3A8 /* NXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTextField.h; sourceTree = "<group>"; };
+		B9A056E61E4777BD0015F3A8 /* NXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTextField.m; sourceTree = "<group>"; };
+		B9A056E81E4778350015F3A8 /* UITextField+NXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NXTextField.h"; sourceTree = "<group>"; };
+		B9A056E91E4778350015F3A8 /* UITextField+NXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NXTextField.m"; sourceTree = "<group>"; };
 		B9A380C91DFD09FA00A7D1FD /* NXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTabBar.h; sourceTree = "<group>"; };
 		B9A380CA1DFD09FA00A7D1FD /* NXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTabBar.m; sourceTree = "<group>"; };
 		B9B1A55C1DF993E40033E4ED /* Controllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Controllers.plist; sourceTree = "<group>"; };
@@ -225,6 +254,10 @@
 			children = (
 				B94126E41DF99271004D7885 /* NXFriendTrendController.h */,
 				B94126E51DF99271004D7885 /* NXFriendTrendController.m */,
+				B9A056C71E4725480015F3A8 /* NXFriendTrendController.xib */,
+				B9A056C91E472B740015F3A8 /* NXLoginViewController.h */,
+				B9A056CA1E472B740015F3A8 /* NXLoginViewController.m */,
+				B9A056CB1E472B740015F3A8 /* NXLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +272,14 @@
 		B94126CB1DF991CB004D7885 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B9A056CE1E47304F0015F3A8 /* NXLoginRegistView.h */,
+				B9A056CF1E47304F0015F3A8 /* NXLoginRegistView.m */,
+				B9A056D11E4730670015F3A8 /* NXLoginRegistView.xib */,
+				B9A056DA1E4740EA0015F3A8 /* NXFastLoginView.h */,
+				B9A056DB1E4740EA0015F3A8 /* NXFastLoginView.m */,
+				B9A056DD1E4740FA0015F3A8 /* NXFastLoginView.xib */,
+				B9A056E51E4777BD0015F3A8 /* NXTextField.h */,
+				B9A056E61E4777BD0015F3A8 /* NXTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,6 +440,8 @@
 				B94126DE1DF991CB004D7885 /* main.m */,
 				B9B1A55C1DF993E40033E4ED /* Controllers.plist */,
 				B924BAE51DFC041C00B47C3E /* Common.h */,
+				B9A056DF1E474CF90015F3A8 /* NXButton.h */,
+				B9A056E01E474CF90015F3A8 /* NXButton.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -472,6 +515,10 @@
 			children = (
 				B95FCB2C1E44B1EE00EC2F15 /* UINavigationItem+item.h */,
 				B95FCB2D1E44B1EE00EC2F15 /* UINavigationItem+item.m */,
+				B9A056E21E474E010015F3A8 /* UIView+NXFrame.h */,
+				B9A056E31E474E010015F3A8 /* UIView+NXFrame.m */,
+				B9A056E81E4778350015F3A8 /* UITextField+NXTextField.h */,
+				B9A056E91E4778350015F3A8 /* UITextField+NXTextField.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -675,6 +722,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A056CD1E472B740015F3A8 /* NXLoginViewController.xib in Resources */,
 				B9D4A65D1E461A71002121BA /* NXRecommendCell.xib in Resources */,
 				B9B1A55D1DF993E40033E4ED /* Controllers.plist in Resources */,
 				B9D4A6481E45C587002121BA /* LaunchImage-700-568h@2x.png in Resources */,
@@ -682,11 +730,14 @@
 				B9523CF21DEC842E00A0D637 /* LaunchScreen.storyboard in Resources */,
 				B9D4A64A1E45C587002121BA /* LaunchImage-800-667h@2x.png in Resources */,
 				B9D4A62F1E45C01D002121BA /* NXAdViewController.xib in Resources */,
+				B9A056C81E4725480015F3A8 /* NXFriendTrendController.xib in Resources */,
 				B9D4A64B1E45C587002121BA /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				B9D4A64C1E45C587002121BA /* LaunchImage.png in Resources */,
 				B9D4A64D1E45C587002121BA /* LaunchImage@2x.png in Resources */,
 				B9D4A6491E45C587002121BA /* LaunchImage-700@2x.png in Resources */,
 				B9523CEF1DEC842E00A0D637 /* Assets.xcassets in Resources */,
+				B9A056D21E4730670015F3A8 /* NXLoginRegistView.xib in Resources */,
+				B9A056DE1E4740FA0015F3A8 /* NXFastLoginView.xib in Resources */,
 				B9523CED1DEC842E00A0D637 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -854,15 +905,22 @@
 				B94126E61DF99271004D7885 /* NXFriendTrendController.m in Sources */,
 				B9D4A6501E45F396002121BA /* NXAdModel.m in Sources */,
 				B9D4A6601E462869002121BA /* NXRecommendModel.m in Sources */,
+				B9A056CC1E472B740015F3A8 /* NXLoginViewController.m in Sources */,
 				B9523CEA1DEC842E00A0D637 /* ViewController.m in Sources */,
+				B9A056DC1E4740EA0015F3A8 /* NXFastLoginView.m in Sources */,
 				B95FCB341E44C38800EC2F15 /* NXNavigationController.m in Sources */,
+				B9A056E71E4777BD0015F3A8 /* NXTextField.m in Sources */,
+				B9A056E41E474E010015F3A8 /* UIView+NXFrame.m in Sources */,
 				B9D4A6581E4613B1002121BA /* NXRecommendViewController.m in Sources */,
 				B9D4A6541E46060B002121BA /* NXRequest.m in Sources */,
 				B95FCB311E44BF7200EC2F15 /* NXSettingViewController.m in Sources */,
+				B9A056D01E47304F0015F3A8 /* NXLoginRegistView.m in Sources */,
 				B9A380CB1DFD09FA00A7D1FD /* NXTabBar.m in Sources */,
+				B9A056EA1E4778350015F3A8 /* UITextField+NXTextField.m in Sources */,
 				B9523CE71DEC842E00A0D637 /* AppDelegate.m in Sources */,
 				B9D4A62E1E45C01D002121BA /* NXAdViewController.m in Sources */,
 				B94126E01DF991CB004D7885 /* main.m in Sources */,
+				B9A056E11E474CF90015F3A8 /* NXButton.m in Sources */,
 				B94126EF1DF9932C004D7885 /* NXMainController.m in Sources */,
 				B94126E31DF99236004D7885 /* NXEssenceController.m in Sources */,
 				B94126EC1DF992EE004D7885 /* NXNewController.m in Sources */,

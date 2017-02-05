@@ -8,6 +8,7 @@
 
 #import "NXFriendTrendController.h"
 #import "UINavigationItem+item.h"
+#import "NXLoginViewController.h"
 @interface NXFriendTrendController ()
 
 @end
@@ -20,6 +21,10 @@
 }
 - (void)setUpNavagationBar{
     self.navigationItem.leftBarButtonItem = [UINavigationItem customeButtonItemWithImage:@"friendsRecommentIcon" highLightImage:@"friendsRecommentIcon-click" target:self action:@selector(attentionClick)];
+}
+- (IBAction)loginClick:(id)sender {
+    NXLoginViewController * loginVc = [[NXLoginViewController alloc]init];
+    [self presentViewController:loginVc animated:YES completion:nil];
 }
 - (void)attentionClick{
     
