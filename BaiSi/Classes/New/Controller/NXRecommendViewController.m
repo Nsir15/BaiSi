@@ -26,6 +26,9 @@ static  NSString * _Nullable cellId = @"recommendCell";
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
     [_tableView registerNib:[UINib nibWithNibName:@"NXRecommendCell" bundle:nil] forCellReuseIdentifier:cellId];
+//    self.tableView.separatorInset = UIEdgeInsetsZero; //分隔线顶头，这个只是设置tableView 顶头，还需要在cell里设置cell的顶头
+    self.tableView.backgroundColor = NXColor(220, 220, 221);
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 - (void)loadData{
@@ -45,6 +48,10 @@ static  NSString * _Nullable cellId = @"recommendCell";
             NXLog(@"error:%@",error);
         }
     }];
+}
+- (void)viewDidAppear:(BOOL)animated
+{
+    NXLog(@"margin:%@",NSStringFromUIEdgeInsets(self.tableView.separatorInset));
 }
 #pragma mark -- tableView delegate
 
