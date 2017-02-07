@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NXMeController : UIViewController
+@interface NXMeController : UITableViewController
 
 @end

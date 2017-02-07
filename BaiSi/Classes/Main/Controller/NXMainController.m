@@ -43,7 +43,13 @@
 
 - (void)createChildController:(Class)class title:(NSString *)title imageName:(NSString *)imageName imageClickName:(NSString *)imageClickName
 {
-    UIViewController * vc = [[class alloc]init];
+    UIViewController * vc;
+    if ([title isEqualToString:@"我"]) {
+        vc = [[UIStoryboard storyboardWithName:@"NXMeController" bundle:nil] instantiateInitialViewController];
+    }else
+    {
+        vc = [[class alloc]init];
+    }
     if ([title isEqualToString:@""]) {
 //        vc.tabBarItem.image = [UIImage imageNamed:imageName];
 //        vc.tabBarItem.selectedImage = [UIImage imageNamed:imageClickName];

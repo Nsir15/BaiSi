@@ -74,8 +74,7 @@ static  NSString * adUrl = @"http://mobads.baidu.com/cpro/ui/mads.php";
     NXRequest * request = [[NXRequest alloc]init];
     [request requetsType:GET url:adUrl params:params  finish:^(id result, NSError *error) {
         if (!error) {
-            NXLog(@"request-----respodes:%@",result);
-            [result writeToFile:@"/Users/nancy/work/Practise/BaiSi/ad.plist" atomically:YES];
+//            [result writeToFile:@"/Users/nancy/work/Practise/BaiSi/ad.plist" atomically:YES];
             _model = [[NXAdModel alloc]init];
             NSDictionary * adDict = [result[@"ad"] lastObject];
             [_model mj_setKeyValues:adDict];
