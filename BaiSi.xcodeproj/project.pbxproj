@@ -15,6 +15,13 @@
 		B90EE9C01E489F9D00C2318E /* NXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90EE9BE1E489F9D00C2318E /* NXWebViewController.xib */; };
 		B90EE9C21E48A1D100C2318E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90EE9C11E48A1D100C2318E /* WebKit.framework */; };
 		B92800BC1E49D21600E8E7AF /* NXStatuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B92800BB1E49D21600E8E7AF /* NXStatuButton.m */; };
+		B92D415C1E4D58DB009F6F6D /* NXAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D415B1E4D58DB009F6F6D /* NXAllViewController.m */; };
+		B92D415F1E4D58E6009F6F6D /* NXVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D415E1E4D58E6009F6F6D /* NXVideoViewController.m */; };
+		B92D41621E4D58F0009F6F6D /* NXVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D41611E4D58F0009F6F6D /* NXVoiceViewController.m */; };
+		B92D41651E4D590D009F6F6D /* NXPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D41641E4D590D009F6F6D /* NXPictureViewController.m */; };
+		B92D41681E4D5927009F6F6D /* NXJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D41671E4D5927009F6F6D /* NXJokeViewController.m */; };
+		B92D416C1E4D6BDD009F6F6D /* NXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D416B1E4D6BDD009F6F6D /* NXConst.m */; };
+		B93A8BA31E4EE9FD00072600 /* NXTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */; };
 		B94126E01DF991CB004D7885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94126DE1DF991CB004D7885 /* main.m */; };
 		B94126E31DF99236004D7885 /* NXEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94126E21DF99236004D7885 /* NXEssenceController.m */; };
 		B94126E61DF99271004D7885 /* NXFriendTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94126E51DF99271004D7885 /* NXFriendTrendController.m */; };
@@ -98,9 +105,22 @@
 		B90EE9BD1E489F9D00C2318E /* NXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXWebViewController.m; sourceTree = "<group>"; };
 		B90EE9BE1E489F9D00C2318E /* NXWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXWebViewController.xib; sourceTree = "<group>"; };
 		B90EE9C11E48A1D100C2318E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		B924BAE51DFC041C00B47C3E /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		B92800BA1E49D21600E8E7AF /* NXStatuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXStatuButton.h; sourceTree = "<group>"; };
 		B92800BB1E49D21600E8E7AF /* NXStatuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXStatuButton.m; sourceTree = "<group>"; };
+		B92D415A1E4D58DB009F6F6D /* NXAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAllViewController.h; sourceTree = "<group>"; };
+		B92D415B1E4D58DB009F6F6D /* NXAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAllViewController.m; sourceTree = "<group>"; };
+		B92D415D1E4D58E6009F6F6D /* NXVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXVideoViewController.h; sourceTree = "<group>"; };
+		B92D415E1E4D58E6009F6F6D /* NXVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXVideoViewController.m; sourceTree = "<group>"; };
+		B92D41601E4D58F0009F6F6D /* NXVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXVoiceViewController.h; sourceTree = "<group>"; };
+		B92D41611E4D58F0009F6F6D /* NXVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXVoiceViewController.m; sourceTree = "<group>"; };
+		B92D41631E4D590D009F6F6D /* NXPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPictureViewController.h; sourceTree = "<group>"; };
+		B92D41641E4D590D009F6F6D /* NXPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPictureViewController.m; sourceTree = "<group>"; };
+		B92D41661E4D5927009F6F6D /* NXJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXJokeViewController.h; sourceTree = "<group>"; };
+		B92D41671E4D5927009F6F6D /* NXJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXJokeViewController.m; sourceTree = "<group>"; };
+		B92D416A1E4D6BDD009F6F6D /* NXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXConst.h; sourceTree = "<group>"; };
+		B92D416B1E4D6BDD009F6F6D /* NXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXConst.m; sourceTree = "<group>"; };
+		B93A8BA11E4EE9FD00072600 /* NXTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicModel.h; sourceTree = "<group>"; };
+		B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTopicModel.m; sourceTree = "<group>"; };
 		B94126DD1DF991CB004D7885 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94126DE1DF991CB004D7885 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B94126E11DF99236004D7885 /* NXEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXEssenceController.h; sourceTree = "<group>"; };
@@ -171,7 +191,7 @@
 		B9D4A64F1E45F396002121BA /* NXAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAdModel.m; sourceTree = "<group>"; };
 		B9D4A6521E46060B002121BA /* NXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRequest.h; sourceTree = "<group>"; };
 		B9D4A6531E46060B002121BA /* NXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRequest.m; sourceTree = "<group>"; };
-		B9D4A6551E460D9D002121BA /* Common.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
+		B9D4A6551E460D9D002121BA /* Common.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.pch; path = ../Common.pch; sourceTree = "<group>"; };
 		B9D4A6561E4613B1002121BA /* NXRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRecommendViewController.h; sourceTree = "<group>"; };
 		B9D4A6571E4613B1002121BA /* NXRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRecommendViewController.m; sourceTree = "<group>"; };
 		B9D4A6591E461A71002121BA /* NXRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRecommendCell.h; sourceTree = "<group>"; };
@@ -242,6 +262,16 @@
 			children = (
 				B94126E11DF99236004D7885 /* NXEssenceController.h */,
 				B94126E21DF99236004D7885 /* NXEssenceController.m */,
+				B92D415A1E4D58DB009F6F6D /* NXAllViewController.h */,
+				B92D415B1E4D58DB009F6F6D /* NXAllViewController.m */,
+				B92D415D1E4D58E6009F6F6D /* NXVideoViewController.h */,
+				B92D415E1E4D58E6009F6F6D /* NXVideoViewController.m */,
+				B92D41601E4D58F0009F6F6D /* NXVoiceViewController.h */,
+				B92D41611E4D58F0009F6F6D /* NXVoiceViewController.m */,
+				B92D41631E4D590D009F6F6D /* NXPictureViewController.h */,
+				B92D41641E4D590D009F6F6D /* NXPictureViewController.m */,
+				B92D41661E4D5927009F6F6D /* NXJokeViewController.h */,
+				B92D41671E4D5927009F6F6D /* NXJokeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +279,8 @@
 		B94126C61DF991CB004D7885 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B93A8BA11E4EE9FD00072600 /* NXTopicModel.h */,
+				B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -471,9 +503,11 @@
 				B94126DD1DF991CB004D7885 /* Info.plist */,
 				B94126DE1DF991CB004D7885 /* main.m */,
 				B9B1A55C1DF993E40033E4ED /* Controllers.plist */,
-				B924BAE51DFC041C00B47C3E /* Common.h */,
 				B9A056DF1E474CF90015F3A8 /* NXButton.h */,
 				B9A056E01E474CF90015F3A8 /* NXButton.m */,
+				B92D416A1E4D6BDD009F6F6D /* NXConst.h */,
+				B92D416B1E4D6BDD009F6F6D /* NXConst.m */,
+				B9D4A6551E460D9D002121BA /* Common.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -511,7 +545,6 @@
 				B9523CE91DEC842E00A0D637 /* ViewController.m */,
 				B9523CEE1DEC842E00A0D637 /* Assets.xcassets */,
 				B9523CE21DEC842E00A0D637 /* Supporting Files */,
-				B9D4A6551E460D9D002121BA /* Common.pch */,
 			);
 			path = BaiSi;
 			sourceTree = "<group>";
@@ -942,14 +975,20 @@
 				B9D4A6501E45F396002121BA /* NXAdModel.m in Sources */,
 				B9D4A6601E462869002121BA /* NXRecommendModel.m in Sources */,
 				B9A056CC1E472B740015F3A8 /* NXLoginViewController.m in Sources */,
+				B92D416C1E4D6BDD009F6F6D /* NXConst.m in Sources */,
 				B9523CEA1DEC842E00A0D637 /* ViewController.m in Sources */,
 				B9A056DC1E4740EA0015F3A8 /* NXFastLoginView.m in Sources */,
+				B92D41681E4D5927009F6F6D /* NXJokeViewController.m in Sources */,
 				B95FCB341E44C38800EC2F15 /* NXNavigationController.m in Sources */,
 				B9A056E71E4777BD0015F3A8 /* NXTextField.m in Sources */,
+				B92D41651E4D590D009F6F6D /* NXPictureViewController.m in Sources */,
 				B9A056E41E474E010015F3A8 /* UIView+NXFrame.m in Sources */,
 				B9D4A6581E4613B1002121BA /* NXRecommendViewController.m in Sources */,
 				B90EE9BF1E489F9D00C2318E /* NXWebViewController.m in Sources */,
+				B92D415C1E4D58DB009F6F6D /* NXAllViewController.m in Sources */,
 				B9D4A6541E46060B002121BA /* NXRequest.m in Sources */,
+				B92D415F1E4D58E6009F6F6D /* NXVideoViewController.m in Sources */,
+				B93A8BA31E4EE9FD00072600 /* NXTopicModel.m in Sources */,
 				B95FCB311E44BF7200EC2F15 /* NXSettingViewController.m in Sources */,
 				B9A056D01E47304F0015F3A8 /* NXLoginRegistView.m in Sources */,
 				B92800BC1E49D21600E8E7AF /* NXStatuButton.m in Sources */,
@@ -963,6 +1002,7 @@
 				B94126EF1DF9932C004D7885 /* NXMainController.m in Sources */,
 				B90EE9AF1E487FEF00C2318E /* NXMeSquareModel.m in Sources */,
 				B94126E31DF99236004D7885 /* NXEssenceController.m in Sources */,
+				B92D41621E4D58F0009F6F6D /* NXVoiceViewController.m in Sources */,
 				B94126EC1DF992EE004D7885 /* NXNewController.m in Sources */,
 				B94126E91DF992E0004D7885 /* NXMeController.m in Sources */,
 				B9D4A65C1E461A71002121BA /* NXRecommendCell.m in Sources */,

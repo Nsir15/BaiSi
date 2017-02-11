@@ -7,7 +7,6 @@
 //
 
 #import "NXMainController.h"
-#import "Common.h"
 #import "NXTabBar.h"
 #import "NXNavigationController.h"
 @interface NXMainController ()
@@ -21,7 +20,6 @@
     // 解析plist获取各个控制器
     NSString * path = [[NSBundle mainBundle]pathForResource:@"Controllers" ofType:@"plist"];
     NSArray * array = [NSArray arrayWithContentsOfFile:path];
-    NSLog(@"array:%@",array);
     __block NSString * classStr;
     __block Class class;
     __block NSString * title;

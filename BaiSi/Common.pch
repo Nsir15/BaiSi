@@ -10,7 +10,9 @@
 #define Common_pch
 
 #import "UIView+NXFrame.h"
+#import "NXConst.h"
 
+#define  NXWriteToFile(fileName)          [result writeToFile: [NSString stringWithFormat:@"/Users/nancy/work/Practise/BaiSi/%@.plist",@#fileName] atomically:YES]
 #define NXColor(r,g,b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 #define RANDOM_COLOR     NXColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 #define weakify(x)    __weak  typeof(x)weak##x = x
