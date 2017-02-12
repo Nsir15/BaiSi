@@ -2,8 +2,8 @@
 //  UIView+NXFrame.m
 //  BaiSi
 //
-//  Created by N-X on 2017/2/5.
-//  Copyright © 2017年 Marauder. All rights reserved.
+//  Created by N-X on 2016/2/5.
+//  Copyright © 2016年 Marauder. All rights reserved.
 //
 
 #import "UIView+NXFrame.h"

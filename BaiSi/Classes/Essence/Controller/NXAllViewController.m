@@ -10,7 +10,9 @@
 #import "NXRequest.h"
 #import <MJExtension/MJExtension.h>
 #import "NXTopicModel.h"
+#import "NXTopicCell.h"
 static NSString * const cellID = @"allViewCell";
+static NSString * const topicCell = @"topcCell";
 @interface NXAllViewController ()
 @property (nonatomic ,strong)UIView *footer;
 @property (nonatomic ,strong)UILabel *footerLabel;
@@ -22,12 +24,14 @@ static NSString * const cellID = @"allViewCell";
 @property (nonatomic ,assign ,getter=isLoading)BOOL  Loading;
 
 @property (nonatomic ,strong)NSMutableArray *dataArray;
+@property(nonatomic,copy)NSString * maxtime;
 @end
 
 @implementation NXAllViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = NXColor(235, 235, 241);
     self.dataCount = 0;
     self.tableView.contentInset = UIEdgeInsetsMake(NXNavMaxY + NXTitlesViewH, 0, NXTabBarH, 0);
     self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(NXNavMaxY + NXTitlesViewH, 0, NXTabBarH, 0);
@@ -38,6 +42,8 @@ static NSString * const cellID = @"allViewCell";
     [self setUpFooter];
     [self setUpHeader];
     [self beginRefresh];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.tableView registerNib:[UINib nibWithNibName:@"NXTopicCell" bundle:nil] forCellReuseIdentifier:topicCell];
 }
 
 - (void)dealloc{
@@ -45,6 +51,7 @@ static NSString * const cellID = @"allViewCell";
     [[NSNotificationCenter defaultCenter]removeObserver:self name:TitleButtonDidRepeatClickNotification object:nil];
 }
 
+#pragma mark -- 设置UI
 - (void)setUpFooter{
     UIView * footer = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.tableView.nx_width, 35)];
     _footer = footer;
@@ -89,10 +96,6 @@ static NSString * const cellID = @"allViewCell";
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     self.footer.hidden = (self.dataArray.count == 0);
     return self.dataArray.count;
@@ -100,11 +103,31 @@ static NSString * const cellID = @"allViewCell";
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@%ld",self.class,indexPath.row];
+    
+    NXTopicCell * cell = [tableView dequeueReusableCellWithIdentifier:topicCell];
+    NXTopicModel * model = self.dataArray[indexPath.row];
+    cell.topicModel = model;
     return cell;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+//    //这里进行高度计算
+    CGFloat cellHeight = 0;
+    
+    NXTopicCell * cell = (NXTopicCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
+    cellHeight += 52;//cell.topContainerView.nx_height;
+    //计算内容label 的高度
+    CGSize maxSize = CGSizeMake(cell.nx_width - NXMargin *2, 1300); //这里的Y 值是指最大的范围
+    cellHeight += [cell.text_label.text boundingRectWithSize:maxSize options: NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:cell.text_label.font} context:nil].size.height + NXMargin;
+    //这里加上中间内容的高度
+    cellHeight += 100;
+    //加上底部的高度
+    cellHeight += 35 + NXMargin * 2;//cell.bottomContainerView.nx_height + NXMargin * 2;
+    NXLog(@"cell-height:%f",cell.nx_height);
+    return cellHeight;
+//    return 200;
+}
 #pragma mark -- scrollView  delegate  在这里处理上拉加载和下拉刷新
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -163,7 +186,6 @@ static NSString * const cellID = @"allViewCell";
     NSMutableDictionary * params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"maxtime"] = @"";
     params[@"type"] = @"1";
     [request requetsType:GET url:@"http://api.budejie.com/api/api_open.php" params:params finish:^(NSDictionary *result, NSError *error) {
         if (!error) {
@@ -171,7 +193,8 @@ static NSString * const cellID = @"allViewCell";
             //结束刷新
             [self endReFresh];
 //            NXWriteToFile(homeData);
-          _dataArray = [NXTopicModel mj_objectArrayWithKeyValuesArray:result];
+          _dataArray = [NXTopicModel mj_objectArrayWithKeyValuesArray:result[@"list"]];
+            _maxtime = result[@"info"][@"maxtime"];
             [self.tableView reloadData];
             
         }else
@@ -181,15 +204,34 @@ static NSString * const cellID = @"allViewCell";
             NXLog(@"error:%@",error);
         }
     }];
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        self.dataCount = 5;
-//        [self.tableView reloadData];
-//        //结束刷新
-//        [self endReFresh];
-//    });
 }
 
 - (void)loadingMoreData{
+    
+    NXRequest * request = [[NXRequest alloc]init];
+    NSMutableDictionary * params = [NSMutableDictionary dictionary];
+    params[@"a"] = @"list";
+    params[@"c"] = @"data";
+    params[@"type"] = @"1";
+    params[@"maxtime"] = _maxtime;
+    [request requetsType:GET url:@"http://api.budejie.com/api/api_open.php" params:params finish:^(NSDictionary *result, NSError *error) {
+        if (!error) {
+            
+            //结束刷新
+            [self endLoading];
+            //            NXWriteToFile(homeData);
+            [_dataArray addObjectsFromArray:[NXTopicModel mj_objectArrayWithKeyValuesArray:result[@"list"]]];
+            _maxtime = result[@"info"][@"maxtime"];
+            [self.tableView reloadData];
+            
+        }else
+        {
+            //结束刷新
+            [self endLoading];
+            NXLog(@"error:%@",error);
+        }
+    }];
+
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         self.dataCount +=5;
         [self.tableView reloadData];
@@ -210,6 +252,9 @@ static NSString * const cellID = @"allViewCell";
         CGFloat contentInsetTop = self.tableView.contentInset.top;
         contentInsetTop += self.header.nx_height;
         self.tableView.contentInset = UIEdgeInsetsMake(contentInsetTop, 0, self.tableView.contentInset.bottom, 0);
+        
+        // 修改偏移量
+        self.tableView.contentOffset = CGPointMake(self.tableView.contentOffset.x,  -contentInsetTop);
     }];
     //开始重新请求数据，刷新数据
     [self refreshData];

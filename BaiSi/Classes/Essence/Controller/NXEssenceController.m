@@ -107,6 +107,10 @@
         //发送重复点击通知
         [[NSNotificationCenter defaultCenter] postNotificationName:TitleButtonDidRepeatClickNotification object:nil];
     }
+    [self dealTitleButtonClick:button];
+}
+
+- (void)dealTitleButtonClick:(UIButton *)button{
     _beforeButton.selected = NO;
     [UIView animateWithDuration:0.3 animations:^{
         _beforeButton.titleLabel.font = [UIFont systemFontOfSize:16];
@@ -135,8 +139,8 @@
         }
         scroll.scrollsToTop = (i == button.tag);
     }
-}
 
+}
 - (void)addChildTableViewForIndex:(NSUInteger)index{
     UIViewController * vc = self.childViewControllers[index];
     if (vc.isViewLoaded) {//如果已经被加载过就不重复加载(加载view  的时候会调用 viewDidLoad)
@@ -145,7 +149,7 @@
     UIView * view = vc.view;
     view.frame = _scrollView.bounds;
     //        view.frame = CGRectMake(_scrollView.nx_width * index, 0, _scrollView.nx_width, _scrollView.nx_height);
-    view.backgroundColor = RANDOM_COLOR;
+//    view.backgroundColor = RANDOM_COLOR;
     [_scrollView addSubview:view];
 
 }
@@ -156,7 +160,8 @@
 {
     NSUInteger index = scrollView.contentOffset.x / scrollView.nx_width;
     NXStatuButton * titleButton = self.statusView.subviews[index];
-    [self titleButtonClick:titleButton];
+//    [self titleButtonClick:titleButton];
+    [self dealTitleButtonClick:titleButton];
 }
 - (void)game{
     

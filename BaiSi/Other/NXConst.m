@@ -18,3 +18,5 @@
 
 NSString * const UITabBarButtonDidRepeatClickNotification = @"UITabBarButtonDidRepeatClickNotification";
 NSString * const TitleButtonDidRepeatClickNotification = @"TitleButtonDidRepeatClickNotification";
+
+CGFloat const NXMargin = 10;

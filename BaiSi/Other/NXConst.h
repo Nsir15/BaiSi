@@ -23,3 +23,6 @@ UIKIT_EXTERN NSString * const UITabBarButtonDidRepeatClickNotification;
 /*精华上面的titleButton 重复点击通知*/
 UIKIT_EXTERN NSString * const TitleButtonDidRepeatClickNotification;
 
+/*margin */
+UIKIT_EXTERN CGFloat const NXMargin;
+

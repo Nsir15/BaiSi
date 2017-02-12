@@ -8,7 +8,7 @@
 
 #import "NXRecommendCell.h"
 #import <UIImageView+WebCache.h>
-
+#import "UIImage+Circle.h"
 @implementation NXRecommendCell
 - (void)setFrame:(CGRect)frame
 {
@@ -31,21 +31,9 @@
     self.subTitle.text = subStr;
 //    [self.icon sd_setImageWithURL:[NSURL URLWithString:model.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     [self.icon sd_setImageWithURL:[NSURL URLWithString:model.image_list] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        //裁剪圆角图片  ， 需要利用图形上下文
-        //1.获取图形上下文
-        //第三个参数 主要是做屏幕适配的，0 会自适应，3的话是plus，retina是。。
-        UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
-        //2.描述裁剪区域
-        UIBezierPath *bezierPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
-        //3.设置裁剪区域
-        [bezierPath addClip];
-        //4.画图片
-        [image drawAtPoint:CGPointZero];
-        //5.取出图片
-        image = UIGraphicsGetImageFromCurrentImageContext();
-        //6.关闭上下文
-        UIGraphicsEndImageContext();
-        self.icon.image = image;
+        if (image) {
+            self.icon.image = [UIImage circleImage:image];
+        }
     }];
 }
 //从xib加载完成的时候会调用一次
