@@ -11,11 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="NXTopicCell">
-            <rect key="frame" x="0.0" y="0.0" width="326" height="200"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="258" id="KGk-i7-Jjw" customClass="NXTopicCell">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="258"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="topcCell" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="326" height="199"/>
+                <rect key="frame" x="0.0" y="0.0" width="326" height="257.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVx-ga-kpI" userLabel="topView">
@@ -71,7 +71,7 @@
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mKF-HP-9Wn" userLabel="bottomView">
-                        <rect key="frame" x="0.0" y="164" width="326" height="35"/>
+                        <rect key="frame" x="0.0" y="222.5" width="326" height="35"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cell-content-line" translatesAutoresizingMaskIntoConstraints="NO" id="ocA-gC-Vn9" userLabel="lineImage View">
                                 <rect key="frame" x="0.0" y="0.0" width="326" height="1"/>
@@ -173,15 +173,47 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnp-m3-ZAz" userLabel="hotCmtContainerView">
+                        <rect key="frame" x="10" y="150.5" width="306" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKd-CQ-VHL" userLabel="nameButton">
+                                <rect key="frame" x="5" y="5" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1ps-fU-eP8"/>
+                                    <constraint firstAttribute="width" constant="70" id="rwH-vq-Neh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="石榴树了:"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dho-kW-ZmY">
+                                <rect key="frame" x="10" y="28" width="286" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qKd-CQ-VHL" firstAttribute="top" secondItem="Pnp-m3-ZAz" secondAttribute="top" constant="5" id="0Er-Mk-ky3"/>
+                            <constraint firstAttribute="trailing" secondItem="Dho-kW-ZmY" secondAttribute="trailing" constant="10" id="JXT-9H-aN7"/>
+                            <constraint firstItem="qKd-CQ-VHL" firstAttribute="leading" secondItem="Pnp-m3-ZAz" secondAttribute="leading" constant="5" id="ajg-nd-PQj"/>
+                            <constraint firstItem="Dho-kW-ZmY" firstAttribute="leading" secondItem="Pnp-m3-ZAz" secondAttribute="leading" constant="10" id="c6g-pa-Acu"/>
+                            <constraint firstAttribute="bottom" secondItem="Dho-kW-ZmY" secondAttribute="bottom" id="qmY-FL-xTz"/>
+                            <constraint firstItem="Dho-kW-ZmY" firstAttribute="top" secondItem="qKd-CQ-VHL" secondAttribute="bottom" constant="2" id="t2M-vK-SiD"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Pnp-m3-ZAz" firstAttribute="trailing" secondItem="Rcm-QZ-Kwz" secondAttribute="trailing" id="1lf-Vs-U99"/>
                     <constraint firstItem="UVx-ga-kpI" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="4sf-Fx-OP8"/>
+                    <constraint firstItem="R4S-cN-5Y0" firstAttribute="top" secondItem="Pnp-m3-ZAz" secondAttribute="bottom" constant="9" id="ClB-iw-r20"/>
                     <constraint firstItem="mKF-HP-9Wn" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="EqC-SF-ysi"/>
                     <constraint firstItem="Rcm-QZ-Kwz" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" constant="-20" id="HOK-pM-WEM"/>
                     <constraint firstItem="Rcm-QZ-Kwz" firstAttribute="top" secondItem="UVx-ga-kpI" secondAttribute="bottom" constant="10" id="IlU-9r-CWY"/>
                     <constraint firstItem="mKF-HP-9Wn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="S0r-to-gWa"/>
                     <constraint firstItem="UVx-ga-kpI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VRO-MP-ovi"/>
                     <constraint firstItem="UVx-ga-kpI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZVL-tO-FGr"/>
+                    <constraint firstItem="Pnp-m3-ZAz" firstAttribute="leading" secondItem="Rcm-QZ-Kwz" secondAttribute="leading" id="czg-gX-A7B"/>
                     <constraint firstAttribute="bottom" secondItem="mKF-HP-9Wn" secondAttribute="bottom" id="fKU-WF-WQM"/>
                     <constraint firstItem="Rcm-QZ-Kwz" firstAttribute="leading" secondItem="MxQ-Cr-tNt" secondAttribute="leading" id="nuZ-YY-Smg"/>
                 </constraints>
@@ -190,15 +222,18 @@
                 <outlet property="bottomContainerView" destination="mKF-HP-9Wn" id="xy1-Rt-1Z8"/>
                 <outlet property="caiButton" destination="R4S-cN-5Y0" id="FnI-oH-cas"/>
                 <outlet property="commentButton" destination="jWG-Ia-uxz" id="ldo-9z-z9R"/>
+                <outlet property="commentLabel" destination="Dho-kW-ZmY" id="uBK-eF-5Uw"/>
                 <outlet property="dingButton" destination="Ohl-hW-vFm" id="YAb-Bz-ecZ"/>
+                <outlet property="hotCmtContainerView" destination="Pnp-m3-ZAz" id="6AR-Op-YTe"/>
                 <outlet property="nameLabel" destination="QA8-5B-q4M" id="hxI-je-rOe"/>
                 <outlet property="passtimeLabel" destination="yiZ-kK-Kcl" id="0Sy-Bo-6o2"/>
                 <outlet property="profileImageView" destination="MxQ-Cr-tNt" id="PIj-80-mUV"/>
                 <outlet property="repostButton" destination="Gfg-72-duV" id="qHx-oN-odi"/>
                 <outlet property="text_label" destination="Rcm-QZ-Kwz" id="jwi-61-AzN"/>
                 <outlet property="topContainerView" destination="UVx-ga-kpI" id="Qdk-AH-cxQ"/>
+                <outlet property="userName" destination="qKd-CQ-VHL" id="qQ0-QU-UhY"/>
             </connections>
-            <point key="canvasLocation" x="586" y="61"/>
+            <point key="canvasLocation" x="787" y="31"/>
         </tableViewCell>
     </objects>
     <resources>

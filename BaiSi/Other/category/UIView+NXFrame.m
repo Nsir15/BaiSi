@@ -70,4 +70,9 @@
 {
     return self.frame.size.height;
 }
+
++ (instancetype)NX_ViewFromXib
+{
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+}
 @end

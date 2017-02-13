@@ -7,9 +7,9 @@
 		<key>count</key>
 		<integer>2000</integer>
 		<key>maxid</key>
-		<string>1486784853</string>
+		<string>1486985642</string>
 		<key>maxtime</key>
-		<string>1486784853</string>
+		<string>1486985642</string>
 		<key>page</key>
 		<integer>100</integer>
 		<key>vendor</key>
@@ -19,67 +19,155 @@
 	<array>
 		<dict>
 			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
+			<string></string>
 			<key>bookmark</key>
-			<string>1</string>
+			<string>9</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>19</string>
+			<string>16</string>
 			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/12/58a081b05090a.gif</string>
 			<key>comment</key>
-			<string>23</string>
+			<string>7</string>
 			<key>create_time</key>
-			<string>2017-02-06 15:43:25</string>
+			<string>2017-02-12 23:39:28</string>
 			<key>created_at</key>
-			<string>2017-02-11 14:40:02</string>
+			<string>2017-02-13 23:00:02</string>
 			<key>ding</key>
-			<string>513</string>
+			<string>75</string>
 			<key>favourite</key>
-			<string>1</string>
+			<string>9</string>
+			<key>gifFistFrame</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/12/58a081b05090a_a_1.jpg</string>
 			<key>hate</key>
-			<string>19</string>
+			<string>16</string>
 			<key>height</key>
-			<string>600</string>
+			<string>290</string>
 			<key>id</key>
-			<string>23512447</string>
+			<string>23630913</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/12/58a081b05090a.gif</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/12/58a081b05090a.gif</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
-			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0206/5898291fb8619_wpd_36.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/12/58a081b05090a.gif</string>
 			<key>is_gif</key>
-			<string>0</string>
+			<string>1</string>
 			<key>love</key>
-			<string>513</string>
+			<string>75</string>
 			<key>name</key>
-			<string>AnarPishti石榴熟了</string>
+			<string>小样抢我辣条还想跑</string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 14:40:02</string>
-			<key>playcount</key>
-			<integer>10520</integer>
-			<key>playfcount</key>
-			<integer>582</integer>
+			<string>2017-02-13 23:00:02</string>
 			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/03/30/56fbf7c669308_mini.jpg</string>
+			<string>http://qzapp.qlogo.cn/qzapp/100336987/91D72831BDD0E9E3154532669730B0E3/100</string>
 			<key>repost</key>
-			<string>7</string>
+			<string>5</string>
 			<key>screen_name</key>
-			<string>AnarPishti石榴熟了</string>
+			<string>小样抢我辣条还想跑</string>
 			<key>status</key>
 			<string>4</string>
 			<key>t</key>
-			<integer>1486795202</integer>
+			<integer>1486998002</integer>
 			<key>tag</key>
 			<string></string>
 			<key>text</key>
-			<string>红灯行、绿灯停！一路绿灯我怎行？</string>
+			<string>吹箫是什么意思啊？</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>10</string>
+			<key>user_id</key>
+			<string>18036481</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.winapp111.com/share/23630913.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>200</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>bookmark</key>
+			<string>27</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>31</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>comment</key>
+			<string>14</string>
+			<key>create_time</key>
+			<string>2017-02-12 10:07:03</string>
+			<key>created_at</key>
+			<string>2017-02-13 22:48:02</string>
+			<key>ding</key>
+			<string>284</string>
+			<key>favourite</key>
+			<string>27</string>
+			<key>hate</key>
+			<string>31</string>
+			<key>height</key>
+			<string>340</string>
+			<key>id</key>
+			<string>23618147</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>284</string>
+			<key>name</key>
+			<string>红颜纷扰红尘梦</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 22:48:02</string>
+			<key>playcount</key>
+			<string>14857</string>
+			<key>playfcount</key>
+			<string>1342</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2015/12/31/56850d019c4aa_mini.jpg</string>
+			<key>repost</key>
+			<string>46</string>
+			<key>screen_name</key>
+			<string>红颜纷扰红尘梦</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486997282</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>杨迪因太丑改编薛之谦《丑八怪》，哈哈哈真是唱出了无数人的心声！</string>
 			<key>theme_id</key>
 			<string>0</string>
 			<key>theme_name</key>
@@ -93,11 +181,11 @@
 			<key>type</key>
 			<string>41</string>
 			<key>user_id</key>
-			<string>17904743</string>
+			<string>17003528</string>
 			<key>videotime</key>
-			<string>74</string>
+			<string>81</string>
 			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0206/5898291fb8619_wpd.mp4</string>
+			<string>http://wvideo.spriteapp.cn/video/2017/0212/f217378c-f0c7-11e6-a46e-d4ae5296039d_wpd.mp4</string>
 			<key>voicelength</key>
 			<string>0</string>
 			<key>voicetime</key>
@@ -105,7 +193,185 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/23512447.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.budejie.com/share/23618147.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>640</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string></string>
+			<key>bookmark</key>
+			<string>2</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>95</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a12dd4282f1_1.jpg</string>
+			<key>comment</key>
+			<string>23</string>
+			<key>create_time</key>
+			<string>2017-02-13 11:53:56</string>
+			<key>created_at</key>
+			<string>2017-02-13 22:33:20</string>
+			<key>ding</key>
+			<string>149</string>
+			<key>favourite</key>
+			<string>2</string>
+			<key>hate</key>
+			<string>95</string>
+			<key>height</key>
+			<string>4573</string>
+			<key>id</key>
+			<string>23636945</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a12dd4282f1_1.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a12dd4282f1_1.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a12dd4282f1_1.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>149</string>
+			<key>name</key>
+			<string>鱼亮亮</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 22:33:20</string>
+			<key>profile_image</key>
+			<string>http://tp2.sinaimg.cn/1656745965/50/5645240369/1</string>
+			<key>repost</key>
+			<string>13</string>
+			<key>screen_name</key>
+			<string>鱼亮亮</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486996400</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>老婆这智商，老公这气度，何愁日子不红红火火~</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>10</string>
+			<key>user_id</key>
+			<string>1189512</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://b.f.winapp111.com/share/23636945.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>800</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>bookmark</key>
+			<string>15</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>80</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>comment</key>
+			<string>29</string>
+			<key>create_time</key>
+			<string>2017-02-11 00:09:38</string>
+			<key>created_at</key>
+			<string>2017-02-13 22:29:02</string>
+			<key>ding</key>
+			<string>450</string>
+			<key>favourite</key>
+			<string>15</string>
+			<key>hate</key>
+			<string>80</string>
+			<key>height</key>
+			<string>600</string>
+			<key>id</key>
+			<string>23597032</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589de5c483136_wpd.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>450</string>
+			<key>name</key>
+			<string>田小豆影视</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 22:29:02</string>
+			<key>playcount</key>
+			<string>37572</string>
+			<key>playfcount</key>
+			<string>1465</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/08/09/57a9e9ca38301_mini.jpg</string>
+			<key>repost</key>
+			<string>14</string>
+			<key>screen_name</key>
+			<string>田小豆影视</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486996142</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>女贼大白天入室偷窃，被抓后居然色诱房主！</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>17052451</string>
+			<key>videotime</key>
+			<string>190</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0211/589de5c483136_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://b.f.zk111.net/share/23597032.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
 			<string>1066</string>
 		</dict>
@@ -113,755 +379,59 @@
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>4</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>33</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e63a7eaf23_1.jpg</string>
-			<key>comment</key>
-			<string>38</string>
-			<key>create_time</key>
-			<string>2017-02-11 09:06:47</string>
-			<key>created_at</key>
-			<string>2017-02-11 14:32:02</string>
-			<key>ding</key>
-			<string>55</string>
-			<key>favourite</key>
-			<string>4</string>
-			<key>hate</key>
-			<string>33</string>
-			<key>height</key>
-			<string>724</string>
-			<key>id</key>
-			<string>23600294</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e63a7eaf23_1.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e63a7eaf23_1.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e63a7eaf23_1.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>55</string>
-			<key>name</key>
-			<string>小公主梦</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 14:32:02</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/09/02/57c938cd5fcac_mini.jpg</string>
-			<key>repost</key>
-			<string>6</string>
-			<key>screen_name</key>
-			<string>小公主梦</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486794722</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>这是大金牛和射手被黑的最惨的一次</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>6281065</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://a.f.winapp111.mobi/share/23600294.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>628</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>2</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>34</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d710b0d79d_1.jpg</string>
-			<key>comment</key>
-			<string>32</string>
-			<key>create_time</key>
-			<string>2017-02-10 15:51:39</string>
-			<key>created_at</key>
-			<string>2017-02-11 14:18:43</string>
-			<key>ding</key>
-			<string>95</string>
-			<key>favourite</key>
-			<string>2</string>
-			<key>hate</key>
-			<string>34</string>
-			<key>height</key>
-			<string>12006</string>
-			<key>id</key>
-			<string>23588348</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d710b0d79d_1.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d710b0d79d_1.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d710b0d79d_1.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>95</string>
-			<key>name</key>
-			<string>学渣的学霸夢</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 14:18:43</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2017/02/08/589ac91a989fa_mini.jpg</string>
-			<key>repost</key>
-			<string>1</string>
-			<key>screen_name</key>
-			<string>学渣的学霸夢</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486793923</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>欺负我没坐过火车是吗？</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>19740012</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://a.f.winapp111.mobi/share/23588348.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>750</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>bookmark</key>
-			<string>6</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>33</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>comment</key>
-			<string>48</string>
-			<key>create_time</key>
-			<string>2017-02-10 11:45:55</string>
-			<key>created_at</key>
-			<string>2017-02-11 14:15:02</string>
-			<key>ding</key>
-			<string>245</string>
-			<key>favourite</key>
-			<string>6</string>
-			<key>hate</key>
-			<string>33</string>
-			<key>height</key>
-			<string>480</string>
-			<key>id</key>
-			<string>23584609</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>245</string>
-			<key>name</key>
-			<string>人上人剧组娱乐</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 14:15:02</string>
-			<key>playcount</key>
-			<integer>26355</integer>
-			<key>playfcount</key>
-			<integer>2598</integer>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/12/04/5843fbbb03537_mini.jpg</string>
-			<key>repost</key>
-			<string>56</string>
-			<key>screen_name</key>
-			<string>人上人剧组娱乐</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486793702</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>你感受到了吗，这就是……爱！</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>41</string>
-			<key>user_id</key>
-			<string>19789764</string>
-			<key>videotime</key>
-			<string>21</string>
-			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0210/6d5a325e-ef43-11e6-84ee-d4ae5296039d_wpd.mp4</string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.winapp111.mobi/share/23584609.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>480</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>48</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>43</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e5748619a5.gif</string>
-			<key>comment</key>
-			<string>53</string>
-			<key>create_time</key>
-			<string>2017-02-11 08:14:00</string>
-			<key>created_at</key>
-			<string>2017-02-11 14:06:01</string>
-			<key>ding</key>
-			<string>173</string>
-			<key>favourite</key>
-			<string>48</string>
-			<key>gifFistFrame</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e5748619a5_a_1.jpg</string>
-			<key>hate</key>
-			<string>43</string>
-			<key>height</key>
-			<string>391</string>
-			<key>id</key>
-			<string>23599641</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e5748619a5.gif</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e5748619a5.gif</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589e5748619a5.gif</string>
-			<key>is_gif</key>
-			<string>1</string>
-			<key>love</key>
-			<string>173</string>
-			<key>name</key>
-			<string>趣图达人</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 14:06:01</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/12/14/5850f27db0052_mini.jpg</string>
-			<key>repost</key>
-			<string>14</string>
-			<key>screen_name</key>
-			<string>趣图达人</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486793161</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>放开那个戴眼镜的妹子，让我来！</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>17658867</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.zk111.cn/share/23599641.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>220</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>1</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>134</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dbfc726a6c_1.jpg</string>
-			<key>comment</key>
-			<string>68</string>
-			<key>create_time</key>
-			<string>2017-02-10 21:27:35</string>
-			<key>created_at</key>
-			<string>2017-02-11 13:58:42</string>
-			<key>ding</key>
-			<string>128</string>
-			<key>favourite</key>
-			<string>1</string>
-			<key>hate</key>
-			<string>134</string>
-			<key>height</key>
-			<string>15726</string>
-			<key>id</key>
-			<string>23593164</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dbfc726a6c_1.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dbfc726a6c_1.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dbfc726a6c_1.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>128</string>
-			<key>name</key>
-			<string>站街小女子</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 13:58:42</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/11/06/581f33d93ccea_mini.jpg</string>
-			<key>repost</key>
-			<string>0</string>
-			<key>screen_name</key>
-			<string>站街小女子</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486792722</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>王俊凯报考北影 低调现身遭围堵人气爆棚</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>19489319</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://b.f.zk111.cn/share/23593164.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>1071</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>2</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>31</string>
-			<key>comment</key>
-			<string>20</string>
-			<key>create_time</key>
-			<string>2017-02-09 21:04:39</string>
-			<key>created_at</key>
-			<string>2017-02-11 13:56:01</string>
-			<key>ding</key>
-			<string>152</string>
-			<key>favourite</key>
-			<string>2</string>
-			<key>hate</key>
-			<string>31</string>
-			<key>height</key>
-			<string>0</string>
-			<key>id</key>
-			<string>23575013</string>
-			<key>love</key>
-			<string>152</string>
-			<key>name</key>
-			<string>芒果不忙O</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 13:56:01</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/11/09/5822ee27a963c_mini.jpg</string>
-			<key>repost</key>
-			<string>4</string>
-			<key>screen_name</key>
-			<string>芒果不忙O</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486792561</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>家里有辆旧面包车，自从买了轿车之后，一直闲置未用。儿子对我说：“妈妈！留面包车干啥，怎么不卖它呢？”我告诉儿子：“不能卖呀！它对于你有纪念意义，它是你的发祥地！”儿子一脸惊诧：“妈妈！你说啥意思，我怎么不懂啊？”我憨笑着就是不告诉他……</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>29</string>
-			<key>user_id</key>
-			<string>19597841</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com/share/23575013.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>0</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>4</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>48</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589da92133e41.gif</string>
-			<key>comment</key>
-			<string>44</string>
-			<key>create_time</key>
-			<string>2017-02-10 19:50:57</string>
-			<key>created_at</key>
-			<string>2017-02-11 13:40:01</string>
-			<key>ding</key>
-			<string>250</string>
-			<key>favourite</key>
-			<string>4</string>
-			<key>gifFistFrame</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589da92133e41_a_1.jpg</string>
-			<key>hate</key>
-			<string>48</string>
-			<key>height</key>
-			<string>280</string>
-			<key>id</key>
-			<string>23591580</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589da92133e41.gif</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589da92133e41.gif</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589da92133e41.gif</string>
-			<key>is_gif</key>
-			<string>1</string>
-			<key>love</key>
-			<string>250</string>
-			<key>name</key>
-			<string>笑公馆V</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 13:40:01</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2017/01/18/587ea8ab38da4_mini.jpg</string>
-			<key>repost</key>
-			<string>11</string>
-			<key>screen_name</key>
-			<string>笑公馆V</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486791601</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>姐今天终于嫁出去啦~啦啦呼啦啦~</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>20060906</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://b.f.zk111.com.cn/share/23591580.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>210</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>bookmark</key>
-			<string>28</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>53</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>comment</key>
 			<string>24</string>
-			<key>create_time</key>
-			<string>2017-02-09 20:17:10</string>
-			<key>created_at</key>
-			<string>2017-02-11 13:25:01</string>
-			<key>ding</key>
-			<string>303</string>
-			<key>favourite</key>
-			<string>28</string>
-			<key>hate</key>
-			<string>53</string>
-			<key>height</key>
-			<string>452</string>
-			<key>id</key>
-			<string>23574173</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd_15.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>303</string>
-			<key>name</key>
-			<string>夜未央之叶秋</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 13:25:01</string>
-			<key>playcount</key>
-			<integer>19219</integer>
-			<key>playfcount</key>
-			<integer>1516</integer>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/10/16/580334fcde3f5_mini.jpg</string>
-			<key>repost</key>
-			<string>63</string>
-			<key>screen_name</key>
-			<string>夜未央之叶秋</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486790701</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>妹子吐槽游戏遇到的坑！情侣真TM坑，那也比不上闺蜜坑……</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>41</string>
-			<key>user_id</key>
-			<string>18262333</string>
-			<key>videotime</key>
-			<string>105</string>
-			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0209/ae5db370-eec1-11e6-a5f7-d4ae5296039d_wpd.mp4</string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://a.f.winapp111.net/share/23574173.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>468</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>26</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>183</string>
+			<string>34</string>
 			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d5f788e7ed.gif</string>
+			<string>http://wimg.spriteapp.cn/ugc/2016/12/11/584d16a774ac5_1.jpg</string>
 			<key>comment</key>
-			<string>77</string>
+			<string>12</string>
 			<key>create_time</key>
-			<string>2017-02-10 14:36:40</string>
+			<string>2016-12-11 17:04:39</string>
 			<key>created_at</key>
-			<string>2017-02-11 13:14:02</string>
+			<string>2017-02-13 22:22:02</string>
 			<key>ding</key>
-			<string>335</string>
+			<string>134</string>
 			<key>favourite</key>
-			<string>26</string>
-			<key>gifFistFrame</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d5f788e7ed_a_1.jpg</string>
+			<string>24</string>
 			<key>hate</key>
-			<string>183</string>
+			<string>34</string>
 			<key>height</key>
-			<string>212</string>
+			<string>8225</string>
 			<key>id</key>
-			<string>23587435</string>
+			<string>22564214</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d5f788e7ed.gif</string>
+			<string>http://wimg.spriteapp.cn/ugc/2016/12/11/584d16a774ac5_1.jpg</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d5f788e7ed.gif</string>
+			<string>http://wimg.spriteapp.cn/ugc/2016/12/11/584d16a774ac5_1.jpg</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d5f788e7ed.gif</string>
+			<string>http://wimg.spriteapp.cn/ugc/2016/12/11/584d16a774ac5_1.jpg</string>
 			<key>is_gif</key>
-			<string>1</string>
+			<string>0</string>
 			<key>love</key>
-			<string>335</string>
+			<string>134</string>
 			<key>name</key>
-			<string>搞笑小村</string>
+			<string>暴力女神经</string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 13:14:02</string>
+			<string>2017-02-13 22:22:02</string>
 			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/12/26/586059118dd30_mini.jpg</string>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/10/07/57f7808cba86a_mini.jpg</string>
 			<key>repost</key>
-			<string>38</string>
+			<string>18</string>
 			<key>screen_name</key>
-			<string>搞笑小村</string>
+			<string>暴力女神经</string>
 			<key>status</key>
 			<string>4</string>
 			<key>t</key>
-			<integer>1486790042</integer>
+			<integer>1486995722</integer>
 			<key>tag</key>
 			<string></string>
 			<key>text</key>
-			<string>新娘：公公在上，儿媳给您点根烟！</string>
+			<string>脑洞太清奇，看到这些群名称笑岔气了</string>
 			<key>theme_id</key>
 			<string>0</string>
 			<key>theme_name</key>
@@ -875,7 +445,7 @@
 			<key>type</key>
 			<string>10</string>
 			<key>user_id</key>
-			<string>18619888</string>
+			<string>16858001</string>
 			<key>videotime</key>
 			<string>0</string>
 			<key>videouri</key>
@@ -887,73 +457,73 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.net/share/23587435.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.cn/share/22564214.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
-			<string>269</string>
+			<string>600</string>
 		</dict>
 		<dict>
 			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>bookmark</key>
-			<string>179</string>
+			<string>17</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>86</string>
+			<string>39</string>
 			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>comment</key>
-			<string>62</string>
+			<string>21</string>
 			<key>create_time</key>
-			<string>2017-02-09 23:22:26</string>
+			<string>2017-02-13 16:32:09</string>
 			<key>created_at</key>
-			<string>2017-02-11 13:00:02</string>
+			<string>2017-02-13 22:10:02</string>
 			<key>ding</key>
-			<string>718</string>
+			<string>228</string>
 			<key>favourite</key>
-			<string>179</string>
+			<string>17</string>
 			<key>hate</key>
-			<string>86</string>
+			<string>39</string>
 			<key>height</key>
-			<string>640</string>
+			<string>600</string>
 			<key>id</key>
-			<string>23578338</string>
+			<string>23641199</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd_10_44.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/58a16f0be2ad8_wpd.jpg</string>
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>718</string>
+			<string>228</string>
 			<key>name</key>
-			<string>灯下黑求指路</string>
+			<string>魔力TV</string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 13:00:02</string>
+			<string>2017-02-13 22:10:02</string>
 			<key>playcount</key>
-			<integer>43941</integer>
+			<string>8413</string>
 			<key>playfcount</key>
-			<integer>4237</integer>
+			<string>148</string>
 			<key>profile_image</key>
-			<string></string>
+			<string>http://tva3.sinaimg.cn/crop.6.4.472.472.50/006lYMs4gw1f3zo9jgqs2j30dc0dcwf5.jpg</string>
 			<key>repost</key>
-			<string>130</string>
+			<string>42</string>
 			<key>screen_name</key>
-			<string>灯下黑求指路</string>
+			<string>魔力TV</string>
 			<key>status</key>
 			<string>4</string>
 			<key>t</key>
-			<integer>1486789202</integer>
+			<integer>1486995002</integer>
 			<key>tag</key>
 			<string></string>
 			<key>text</key>
-			<string>妹子不但长的漂亮，歌唱的也好听，只是歌词能不能再污点？感觉不会再纯洁了</string>
+			<string>3分钟超实用情人节送礼指南</string>
 			<key>theme_id</key>
 			<string>0</string>
 			<key>theme_name</key>
@@ -967,11 +537,11 @@
 			<key>type</key>
 			<string>41</string>
 			<key>user_id</key>
-			<string>20125956</string>
+			<string>18409366</string>
 			<key>videotime</key>
-			<string>62</string>
+			<string>177</string>
 			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0209/9066b000-eedb-11e6-85eb-90b11c479401_wpd.mp4</string>
+			<string>http://wvideo.spriteapp.cn/video/2017/0213/58a16f0be2ad8_wpd.mp4</string>
 			<key>voicelength</key>
 			<string>0</string>
 			<key>voicetime</key>
@@ -979,513 +549,165 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.mobi/share/23578338.html?wx.qq.com&amp;appname=</string>
+			<string>http://c.f.winapp111.net/share/23641199.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
-			<string>480</string>
+			<string>1066</string>
 		</dict>
 		<dict>
 			<key>bimageuri</key>
-			<string></string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>bookmark</key>
-			<string>9</string>
+			<string>122</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>63</string>
+			<string>66</string>
 			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d1048d0704_1.jpg</string>
-			<key>comment</key>
-			<string>98</string>
-			<key>create_time</key>
-			<string>2017-02-10 08:58:48</string>
-			<key>created_at</key>
-			<string>2017-02-11 12:48:01</string>
-			<key>ding</key>
-			<string>420</string>
-			<key>favourite</key>
-			<string>9</string>
-			<key>hate</key>
-			<string>63</string>
-			<key>height</key>
-			<string>7034</string>
-			<key>id</key>
-			<string>23582341</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d1048d0704_1.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d1048d0704_1.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d1048d0704_1.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>420</string>
-			<key>name</key>
-			<string>濮阳念桃_</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 12:48:01</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/12/04/584411ea43c4a_mini.jpg</string>
-			<key>repost</key>
-			<string>82</string>
-			<key>screen_name</key>
-			<string>濮阳念桃_</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486788481</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>女子不顾爸妈反对私奔嫁给穷小伙：婚礼没车没房没宴席！</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>19219339</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.zk111.net/share/23582341.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>576</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>bookmark</key>
-			<string>77</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>58</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>comment</key>
-			<string>62</string>
-			<key>create_time</key>
-			<string>2017-02-10 14:19:02</string>
-			<key>created_at</key>
-			<string>2017-02-11 12:35:02</string>
-			<key>ding</key>
-			<string>799</string>
-			<key>favourite</key>
-			<string>77</string>
-			<key>hate</key>
-			<string>58</string>
-			<key>height</key>
-			<string>480</string>
-			<key>id</key>
-			<string>23587129</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd_47.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>799</string>
-			<key>name</key>
-			<string>天堂的七色花</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 12:35:02</string>
-			<key>playcount</key>
-			<string>47444</string>
-			<key>playfcount</key>
-			<string>5893</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/08/19/57b71b5307519_mini.jpg</string>
-			<key>repost</key>
-			<string>78</string>
-			<key>screen_name</key>
-			<string>天堂的七色花</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486787702</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>俄罗斯方块高手对决，这速度，手残党表示看看就好了！</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>41</string>
-			<key>user_id</key>
-			<string>19056469</string>
-			<key>videotime</key>
-			<string>271</string>
-			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0210/d109336c-ef58-11e6-bb08-d4ae5296039d_wpd.mp4</string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://b.f.winapp111.cn/share/23587129.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>640</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>37</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>33</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dac3f30978.gif</string>
-			<key>comment</key>
-			<string>36</string>
-			<key>create_time</key>
-			<string>2017-02-10 20:04:15</string>
-			<key>created_at</key>
-			<string>2017-02-11 12:22:02</string>
-			<key>ding</key>
-			<string>389</string>
-			<key>favourite</key>
-			<string>37</string>
-			<key>gifFistFrame</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dac3f30978_a_1.jpg</string>
-			<key>hate</key>
-			<string>33</string>
-			<key>height</key>
-			<string>365</string>
-			<key>id</key>
-			<string>23591755</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dac3f30978.gif</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dac3f30978.gif</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589dac3f30978.gif</string>
-			<key>is_gif</key>
-			<string>1</string>
-			<key>love</key>
-			<string>389</string>
-			<key>name</key>
-			<string>搞笑小村</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 12:22:02</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/12/26/586059118dd30_mini.jpg</string>
-			<key>repost</key>
-			<string>61</string>
-			<key>screen_name</key>
-			<string>搞笑小村</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486786922</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>一张动图告诉你汤圆和元宵的区别！祝大家元宵节快乐！</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>18619888</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://a.f.winapp111.com.cn/share/23591755.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>199</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>125</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>65</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589b4bfc69dae_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>comment</key>
 			<string>31</string>
 			<key>create_time</key>
-			<string>2017-02-09 00:49:00</string>
+			<string>2017-02-07 23:01:51</string>
 			<key>created_at</key>
-			<string>2017-02-11 12:19:09</string>
+			<string>2017-02-13 21:50:02</string>
 			<key>ding</key>
-			<string>962</string>
+			<string>692</string>
 			<key>favourite</key>
-			<string>125</string>
+			<string>122</string>
 			<key>hate</key>
-			<string>65</string>
+			<string>66</string>
 			<key>height</key>
-			<string>21813</string>
+			<string>360</string>
 			<key>id</key>
-			<string>23561118</string>
+			<string>23539431</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589b4bfc69dae_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589b4bfc69dae_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589b4bfc69dae_1.jpg</string>
-			<key>is_gif</key>
-			<string>0</string>
-			<key>love</key>
-			<string>962</string>
-			<key>name</key>
-			<string>污师_大大王</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 12:19:09</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/10/23/580ccc266d834_mini.jpg</string>
-			<key>repost</key>
-			<string>251</string>
-			<key>screen_name</key>
-			<string>污师_大大王</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486786749</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>当邓超遇到ps大神后，哈哈哈。笑的肚子疼</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>6627949</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://b.f.winapp111.com.cn/share/23561118.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>480</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>727</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>62</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589c16ed779a1.gif</string>
-			<key>comment</key>
-			<string>278</string>
-			<key>create_time</key>
-			<string>2017-02-09 15:14:53</string>
-			<key>created_at</key>
-			<string>2017-02-11 12:18:28</string>
-			<key>ding</key>
-			<string>617</string>
-			<key>favourite</key>
-			<string>727</string>
-			<key>gifFistFrame</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589c16ed779a1_a_1.jpg</string>
-			<key>hate</key>
-			<string>62</string>
-			<key>height</key>
-			<string>281</string>
-			<key>id</key>
-			<string>23569712</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589c16ed779a1.gif</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589c16ed779a1.gif</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589c16ed779a1.gif</string>
-			<key>is_gif</key>
-			<string>1</string>
-			<key>love</key>
-			<string>617</string>
-			<key>name</key>
-			<string>ωǒ鳪銗誨</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 12:18:28</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/07/09/578101ff70b7d_mini.jpg</string>
-			<key>repost</key>
-			<string>64</string>
-			<key>screen_name</key>
-			<string>ωǒ鳪銗誨</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486786708</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>嫂子我好饿啊~有馒头吃吗~</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>17436292</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.zk111.net/share/23569712.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>500</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
-			<key>bookmark</key>
-			<string>41</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>37</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
-			<key>comment</key>
-			<string>34</string>
-			<key>create_time</key>
-			<string>2017-02-04 13:46:20</string>
-			<key>created_at</key>
-			<string>2017-02-11 12:10:02</string>
-			<key>ding</key>
-			<string>696</string>
-			<key>favourite</key>
-			<string>41</string>
-			<key>hate</key>
-			<string>37</string>
-			<key>height</key>
-			<string>226</string>
-			<key>id</key>
-			<string>23475291</string>
-			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
-			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
-			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>image_small</key>
-			<string>http://wimg.spriteapp.cn/picture/2017/0204/23475291_813_65.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.jpg</string>
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>696</string>
+			<string>692</string>
+			<key>name</key>
+			<string>与君共醉</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 21:50:02</string>
+			<key>playcount</key>
+			<integer>20894</integer>
+			<key>playfcount</key>
+			<integer>2135</integer>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2017/01/11/58758bd42f6a1_mini.jpg</string>
+			<key>repost</key>
+			<string>154</string>
+			<key>screen_name</key>
+			<string>与君共醉</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486993802</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>约会的时候，男生应不应该都是男生付钱？这个英国小哥给出了一个解释，你们同意吗？</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>19809241</string>
+			<key>videotime</key>
+			<string>175</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0207/5b6e9fa2-ed46-11e6-bbb6-d4ae5296039d_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.winapp111.cn/share/23539431.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>640</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>bookmark</key>
+			<string>13</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>75</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>comment</key>
+			<string>60</string>
+			<key>create_time</key>
+			<string>2017-02-12 12:02:57</string>
+			<key>created_at</key>
+			<string>2017-02-13 21:36:02</string>
+			<key>ding</key>
+			<string>555</string>
+			<key>favourite</key>
+			<string>13</string>
+			<key>hate</key>
+			<string>75</string>
+			<key>height</key>
+			<string>480</string>
+			<key>id</key>
+			<string>23619921</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>555</string>
 			<key>name</key>
 			<string>我是星辰</string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 12:10:02</string>
+			<string>2017-02-13 21:36:02</string>
 			<key>playcount</key>
-			<integer>44695</integer>
+			<string>64647</string>
 			<key>playfcount</key>
-			<integer>10612</integer>
+			<string>16989</string>
 			<key>profile_image</key>
 			<string>http://wimg.spriteapp.cn/profile/large/2016/07/05/577b7f3a0e43e_mini.jpg</string>
 			<key>repost</key>
-			<string>178</string>
+			<string>119</string>
 			<key>screen_name</key>
 			<string>我是星辰</string>
 			<key>status</key>
 			<string>4</string>
 			<key>t</key>
-			<integer>1486786202</integer>
+			<integer>1486992962</integer>
 			<key>tag</key>
 			<string></string>
 			<key>text</key>
-			<string>很适合情侣之间做的温馨小游戏！情人节就这么玩吧~</string>
+			<string>word姐太厉害了……神功已练成了吧！</string>
 			<key>theme_id</key>
 			<string>0</string>
 			<key>theme_name</key>
@@ -1501,9 +723,9 @@
 			<key>user_id</key>
 			<string>7705011</string>
 			<key>videotime</key>
-			<string>19</string>
+			<string>12</string>
 			<key>videouri</key>
-			<string>http://wvideo.spriteapp.cn/video/2017/0204/58956aacd163b_wpd.mp4</string>
+			<string>http://wvideo.spriteapp.cn/video/2017/0212/230d53ca-f0d8-11e6-862d-90b11c479401_wpd.mp4</string>
 			<key>voicelength</key>
 			<string>0</string>
 			<key>voicetime</key>
@@ -1511,229 +733,1049 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://c.f.winapp111.com.cn/share/23475291.html?wx.qq.com&amp;appname=</string>
+			<string>http://a.f.winapp111.com.cn/share/23619921.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
-			<string>234</string>
+			<string>646</string>
 		</dict>
 		<dict>
 			<key>bimageuri</key>
 			<string></string>
 			<key>bookmark</key>
-			<string>29</string>
+			<string>23</string>
 			<key>cache_version</key>
 			<integer>2</integer>
 			<key>cai</key>
-			<string>50</string>
+			<string>75</string>
 			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d159ceb353_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eb98d15f88.gif</string>
 			<key>comment</key>
-			<string>106</string>
+			<string>103</string>
 			<key>create_time</key>
-			<string>2017-02-10 09:21:32</string>
+			<string>2017-02-11 15:13:17</string>
 			<key>created_at</key>
-			<string>2017-02-11 11:56:02</string>
+			<string>2017-02-13 21:26:02</string>
 			<key>ding</key>
-			<string>1232</string>
+			<string>499</string>
 			<key>favourite</key>
-			<string>29</string>
+			<string>23</string>
+			<key>gifFistFrame</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eb98d15f88_a_1.jpg</string>
 			<key>hate</key>
-			<string>50</string>
+			<string>75</string>
 			<key>height</key>
-			<string>16565</string>
+			<string>287</string>
 			<key>id</key>
-			<string>23582602</string>
+			<string>23605299</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d159ceb353_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eb98d15f88.gif</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d159ceb353_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eb98d15f88.gif</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d159ceb353_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eb98d15f88.gif</string>
 			<key>is_gif</key>
-			<string>0</string>
+			<string>1</string>
 			<key>love</key>
-			<string>1232</string>
+			<string>499</string>
 			<key>name</key>
-			<string>龘靐龗齾齉爩虌麷灩韊</string>
+			<string>鲁西大蛮</string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 11:56:02</string>
+			<string>2017-02-13 21:26:02</string>
 			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/10/07/57f7b339ed872_mini.jpg</string>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/11/15/582a404523683_mini.jpg</string>
 			<key>repost</key>
+			<string>44</string>
+			<key>screen_name</key>
+			<string>鲁西大蛮</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486992362</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>当一名贱身教练有多痛苦你知道吗！？</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>10</string>
+			<key>user_id</key>
+			<string>19670833</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.winapp111.com.cn/share/23605299.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>494</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>bookmark</key>
+			<string>53</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>72</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>comment</key>
+			<string>28</string>
+			<key>create_time</key>
+			<string>2017-02-11 10:22:44</string>
+			<key>created_at</key>
+			<string>2017-02-13 21:22:02</string>
+			<key>ding</key>
+			<string>648</string>
+			<key>favourite</key>
+			<string>53</string>
+			<key>hate</key>
+			<string>72</string>
+			<key>height</key>
+			<string>240</string>
+			<key>id</key>
+			<string>23601324</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd_19.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>648</string>
+			<key>name</key>
+			<string>dp神墨</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 21:22:02</string>
+			<key>playcount</key>
+			<string>31691</string>
+			<key>playfcount</key>
+			<string>303</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/08/04/57a31c41ee597_mini.jpg</string>
+			<key>repost</key>
+			<string>188</string>
+			<key>screen_name</key>
+			<string>dp神墨</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486992122</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>趁情人节没到赶快学会了，到时候就去街上去唱</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>18750799</string>
+			<key>videotime</key>
+			<string>238</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0211/f872b768-f000-11e6-9429-d4ae5296039d_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.zk111.net/share/23601324.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>426</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>bookmark</key>
+			<string>100</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>166</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>comment</key>
+			<string>87</string>
+			<key>create_time</key>
+			<string>2017-02-12 16:01:51</string>
+			<key>created_at</key>
+			<string>2017-02-13 21:07:02</string>
+			<key>ding</key>
+			<string>595</string>
+			<key>favourite</key>
+			<string>100</string>
+			<key>hate</key>
+			<string>166</string>
+			<key>height</key>
+			<string>480</string>
+			<key>id</key>
+			<string>23623124</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>595</string>
+			<key>name</key>
+			<string>dp神墨</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 21:07:02</string>
+			<key>playcount</key>
+			<string>107899</string>
+			<key>playfcount</key>
+			<string>6123</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/08/04/57a31c41ee597_mini.jpg</string>
+			<key>repost</key>
+			<string>59</string>
+			<key>screen_name</key>
+			<string>dp神墨</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486991222</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>健个身都像开车，老司机带带我吧</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>18750799</string>
+			<key>videotime</key>
+			<string>52</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0212/82a789e2-f0f9-11e6-ab9a-d4ae5296039d_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.winapp111.com/share/23623124.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>480</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string></string>
+			<key>bookmark</key>
+			<string>2</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>256</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a123043059c_1.jpg</string>
+			<key>comment</key>
+			<string>204</string>
+			<key>create_time</key>
+			<string>2017-02-13 11:07:48</string>
+			<key>created_at</key>
+			<string>2017-02-13 21:06:01</string>
+			<key>ding</key>
+			<string>182</string>
+			<key>favourite</key>
+			<string>2</string>
+			<key>hate</key>
+			<string>256</string>
+			<key>height</key>
+			<string>6172</string>
+			<key>id</key>
+			<string>23636368</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a123043059c_1.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a123043059c_1.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/13/58a123043059c_1.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>182</string>
+			<key>name</key>
+			<string>一轩2009</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 21:06:01</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/10/18/5805e84841790_mini.jpg</string>
+			<key>repost</key>
+			<string>8</string>
+			<key>screen_name</key>
+			<string>一轩2009</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486991161</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>古力娜扎现身首都机场造型清新，别人还穿着羽绒服，人家光着腿就出门了</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>10</string>
+			<key>user_id</key>
+			<string>15076679</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.winapp111.net/share/23636368.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>750</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string></string>
+			<key>bookmark</key>
+			<string>62</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>107</string>
+			<key>comment</key>
+			<string>49</string>
+			<key>create_time</key>
+			<string>2017-02-12 17:13:43</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:56:01</string>
+			<key>ding</key>
+			<string>1160</string>
+			<key>favourite</key>
+			<string>62</string>
+			<key>hate</key>
+			<string>107</string>
+			<key>height</key>
+			<string>0</string>
+			<key>id</key>
+			<string>23624094</string>
+			<key>love</key>
+			<string>1160</string>
+			<key>name</key>
+			<string>迷雾好囧</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:56:01</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/11/15/582b01ed24cd4_mini.jpg</string>
+			<key>repost</key>
+			<string>87</string>
+			<key>screen_name</key>
+			<string>迷雾好囧</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486990561</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>猪八戒:“师傅，情人节有假放吗？我想去趟高老庄……”孙悟空:“师傅，我想去趟芭蕉洞，我嫂子说要包饺子给我吃……”唐僧:“悟净，你又想去哪里呢！”悟净:“我…我只想寸步不离跟着师傅……”八戒和悟空走后，悟净笑道:“师傅，我们去女儿国吧！”</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>29</string>
+			<key>user_id</key>
+			<string>8605033</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.winapp111.net/share/23624094.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>bookmark</key>
+			<string>140</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>263</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>comment</key>
+			<string>277</string>
+			<key>create_time</key>
+			<string>2017-02-13 17:13:56</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:53:02</string>
+			<key>ding</key>
+			<string>1013</string>
+			<key>favourite</key>
+			<string>140</string>
+			<key>hate</key>
+			<string>263</string>
+			<key>height</key>
+			<string>480</string>
+			<key>id</key>
+			<string>23641815</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>1013</string>
+			<key>name</key>
+			<string>春风吹过少年城</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:53:02</string>
+			<key>playcount</key>
+			<string>44272</string>
+			<key>playfcount</key>
+			<string>1153</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2017/02/03/589406e930914_mini.jpg</string>
+			<key>repost</key>
+			<string>143</string>
+			<key>screen_name</key>
+			<string>春风吹过少年城</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486990382</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>情人节到了，俊男靓女一首《神话》送给你们，瞬间开启博虐狗模式！</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>18198978</string>
+			<key>videotime</key>
+			<string>276</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0213/bf044032-f1cc-11e6-9b85-d4ae5296039d_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://b.f.budejie.com/share/23641815.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>640</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>bookmark</key>
+			<string>21</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>289</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>comment</key>
+			<string>73</string>
+			<key>create_time</key>
+			<string>2017-02-12 14:27:40</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:43:01</string>
+			<key>ding</key>
+			<string>401</string>
+			<key>favourite</key>
+			<string>21</string>
+			<key>hate</key>
+			<string>289</string>
+			<key>height</key>
+			<string>600</string>
+			<key>id</key>
+			<string>23621971</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0212/58a0005f55f5a_wpd_95.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>401</string>
+			<key>name</key>
+			<string>小罗恶搞</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:43:01</string>
+			<key>playcount</key>
+			<integer>34777</integer>
+			<key>playfcount</key>
+			<integer>1505</integer>
+			<key>profile_image</key>
+			<string>http://qzapp.qlogo.cn/qzapp/100336987/7D58A329E8C45BAC8723CB4E76BFD0A1/100</string>
+			<key>repost</key>
+			<string>38</string>
+			<key>screen_name</key>
+			<string>小罗恶搞</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486989781</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>美女学生约多名陌生男子上楼干不可描述的事，还预备了一份惊喜</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>16826242</string>
+			<key>videotime</key>
+			<string>303</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0212/58a0005f55f5a_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.winapp111.com/share/23621971.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>1066</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>bookmark</key>
+			<string>159</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>69</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>comment</key>
+			<string>181</string>
+			<key>create_time</key>
+			<string>2017-02-11 21:40:38</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:34:03</string>
+			<key>ding</key>
+			<string>904</string>
+			<key>favourite</key>
+			<string>159</string>
+			<key>hate</key>
+			<string>69</string>
+			<key>height</key>
+			<string>360</string>
+			<key>id</key>
+			<string>23610427</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/23610427_334.gif</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>904</string>
+			<key>name</key>
+			<string>难过又怎样我还有颖子</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:34:03</string>
+			<key>playcount</key>
+			<string>49444</string>
+			<key>playfcount</key>
+			<string>262</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/07/17/578b8c4f8cd8e_mini.jpg</string>
+			<key>repost</key>
+			<string>198</string>
+			<key>screen_name</key>
+			<string>难过又怎样我还有颖子</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486989243</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>外国大神的送命运动，10秒以后我已经投降了，你能不腿软看到几分钟？</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>18809830</string>
+			<key>videotime</key>
+			<string>488</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0211/ac36184a-f05f-11e6-861c-90b11c479401cut_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.zk111.net/share/23610427.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>640</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string></string>
+			<key>bookmark</key>
+			<string>15</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>71</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d068a95d57_1.jpg</string>
+			<key>comment</key>
+			<string>190</string>
+			<key>create_time</key>
+			<string>2017-02-10 08:17:14</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:30:01</string>
+			<key>ding</key>
+			<string>522</string>
+			<key>favourite</key>
+			<string>15</string>
+			<key>hate</key>
+			<string>71</string>
+			<key>height</key>
+			<string>1191</string>
+			<key>id</key>
+			<string>23581912</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d068a95d57_1.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d068a95d57_1.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/10/589d068a95d57_1.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>522</string>
+			<key>name</key>
+			<string>那些年的忧伤</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:30:01</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/11/14/5828fe7c4d16c_mini.jpg</string>
+			<key>repost</key>
+			<string>24</string>
+			<key>screen_name</key>
+			<string>那些年的忧伤</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486989001</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>硬盘女神自曝退役后相当中国儿媳妇，却至今没人领回家！你觉得苍老师嫁不出去的原因是哪个呢？</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>10</string>
+			<key>user_id</key>
+			<string>19580755</string>
+			<key>videotime</key>
+			<string>0</string>
+			<key>videouri</key>
+			<string></string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.zk111.com.cn/share/23581912.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>750</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>bookmark</key>
+			<string>24</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>83</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>comment</key>
+			<string>52</string>
+			<key>create_time</key>
+			<string>2017-02-11 18:42:16</string>
+			<key>created_at</key>
+			<string>2017-02-13 20:15:01</string>
+			<key>ding</key>
+			<string>1606</string>
+			<key>favourite</key>
+			<string>24</string>
+			<key>hate</key>
+			<string>83</string>
+			<key>height</key>
+			<string>240</string>
+			<key>id</key>
+			<string>23607796</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0211/589eea88bb139__b.jpg</string>
+			<key>is_gif</key>
+			<string>0</string>
+			<key>love</key>
+			<string>1606</string>
+			<key>name</key>
+			<string>陈翔六点半</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 20:15:01</string>
+			<key>playcount</key>
+			<string>67691</string>
+			<key>playfcount</key>
+			<string>1550</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2015/05/05/554883fcaaaa7_mini.jpg</string>
+			<key>repost</key>
+			<string>65</string>
+			<key>screen_name</key>
+			<string>陈翔六点半</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486988101</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>家有一老，套路不少！</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>13219299</string>
+			<key>videotime</key>
+			<string>278</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0211/589eea892633e_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://c.f.winapp111.mobi/share/23607796.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>320</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
+			<key>bookmark</key>
+			<string>125</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>89</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
+			<key>comment</key>
 			<string>45</string>
-			<key>screen_name</key>
-			<string>龘靐龗齾齉爩虌麷灩韊</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486785362</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>“老干妈”陶华碧：坚持不上市，就要赚外国人钱！大妈稳</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>10</string>
-			<key>user_id</key>
-			<string>13943553</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.zk111.com.cn/share/23582602.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>1440</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>21</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>47</string>
-			<key>comment</key>
-			<string>34</string>
 			<key>create_time</key>
-			<string>2016-11-01 08:21:21</string>
+			<string>2017-02-10 15:02:44</string>
 			<key>created_at</key>
-			<string>2017-02-11 11:56:02</string>
+			<string>2017-02-13 19:42:02</string>
 			<key>ding</key>
-			<string>493</string>
+			<string>1134</string>
 			<key>favourite</key>
-			<string>21</string>
+			<string>125</string>
 			<key>hate</key>
-			<string>47</string>
+			<string>89</string>
 			<key>height</key>
-			<string>0</string>
+			<string>600</string>
 			<key>id</key>
-			<string>21777683</string>
-			<key>love</key>
-			<string>493</string>
-			<key>name</key>
-			<string>爱情有点辣</string>
-			<key>original_pid</key>
-			<string>0</string>
-			<key>passtime</key>
-			<string>2017-02-11 11:56:02</string>
-			<key>profile_image</key>
-			<string>http://wimg.spriteapp.cn/profile/large/2016/10/24/580d6e0755b81_mini.jpg</string>
-			<key>repost</key>
-			<string>20</string>
-			<key>screen_name</key>
-			<string>爱情有点辣</string>
-			<key>status</key>
-			<string>4</string>
-			<key>t</key>
-			<integer>1486785362</integer>
-			<key>tag</key>
-			<string></string>
-			<key>text</key>
-			<string>早上收拾衣服看到老公有两条内裤都破洞了，挺心疼的，我天天逛街、做美容、打麻将，真是忽略了他，赶紧把内裤给他扔进了垃圾桶，回头必须多给他买两条好点的内裤……刚刚打麻将回家，我默默的把垃圾桶里老公的内裤捡了出来……</string>
-			<key>theme_id</key>
-			<string>0</string>
-			<key>theme_name</key>
-			<string></string>
-			<key>theme_type</key>
-			<string>0</string>
-			<key>themes</key>
-			<array/>
-			<key>top_cmt</key>
-			<array/>
-			<key>type</key>
-			<string>29</string>
-			<key>user_id</key>
-			<string>19547219</string>
-			<key>videotime</key>
-			<string>0</string>
-			<key>videouri</key>
-			<string></string>
-			<key>voicelength</key>
-			<string>0</string>
-			<key>voicetime</key>
-			<string>0</string>
-			<key>voiceuri</key>
-			<string></string>
-			<key>weixin_url</key>
-			<string>http://c.f.winapp111.cn/share/21777683.html?wx.qq.com&amp;appname=</string>
-			<key>width</key>
-			<string>0</string>
-		</dict>
-		<dict>
-			<key>bimageuri</key>
-			<string></string>
-			<key>bookmark</key>
-			<string>3</string>
-			<key>cache_version</key>
-			<integer>2</integer>
-			<key>cai</key>
-			<string>64</string>
-			<key>cdn_img</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589bcb17f1685_1.jpg</string>
-			<key>comment</key>
-			<string>32</string>
-			<key>create_time</key>
-			<string>2017-02-09 09:51:19</string>
-			<key>created_at</key>
-			<string>2017-02-11 11:47:33</string>
-			<key>ding</key>
-			<string>137</string>
-			<key>favourite</key>
-			<string>3</string>
-			<key>hate</key>
-			<string>64</string>
-			<key>height</key>
-			<string>7755</string>
-			<key>id</key>
-			<string>23564426</string>
+			<string>23587786</string>
 			<key>image0</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589bcb17f1685_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
 			<key>image1</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589bcb17f1685_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
 			<key>image2</key>
-			<string>http://wimg.spriteapp.cn/ugc/2017/02/09/589bcb17f1685_1.jpg</string>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
+			<key>image_small</key>
+			<string>http://wimg.spriteapp.cn/picture/2017/0210/589d65965a5cf_wpd_16.jpg</string>
 			<key>is_gif</key>
 			<string>0</string>
 			<key>love</key>
-			<string>137</string>
+			<string>1134</string>
 			<key>name</key>
-			<string>臭宝蛋蛋</string>
+			<string>果子哥哥 </string>
 			<key>original_pid</key>
 			<string>0</string>
 			<key>passtime</key>
-			<string>2017-02-11 11:47:33</string>
+			<string>2017-02-13 19:42:02</string>
+			<key>playcount</key>
+			<integer>40545</integer>
+			<key>playfcount</key>
+			<integer>1126</integer>
 			<key>profile_image</key>
-			<string>http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg</string>
+			<string>http://wimg.spriteapp.cn/profile/20160811172910.png</string>
 			<key>repost</key>
-			<string>5</string>
+			<string>229</string>
 			<key>screen_name</key>
-			<string>臭宝蛋蛋</string>
+			<string>果子哥哥 </string>
 			<key>status</key>
 			<string>4</string>
 			<key>t</key>
-			<integer>1486784853</integer>
+			<integer>1486986122</integer>
 			<key>tag</key>
 			<string></string>
 			<key>text</key>
-			<string>女司机高速逆行10公里 竟是男友酒后逼的</string>
+			<string>一次基情四射的面试，公司需要你这样滴乖娃儿~</string>
+			<key>theme_id</key>
+			<string>0</string>
+			<key>theme_name</key>
+			<string></string>
+			<key>theme_type</key>
+			<string>0</string>
+			<key>themes</key>
+			<array/>
+			<key>top_cmt</key>
+			<array/>
+			<key>type</key>
+			<string>41</string>
+			<key>user_id</key>
+			<string>19081191</string>
+			<key>videotime</key>
+			<string>208</string>
+			<key>videouri</key>
+			<string>http://wvideo.spriteapp.cn/video/2017/0210/589d65965a5cf_wpd.mp4</string>
+			<key>voicelength</key>
+			<string>0</string>
+			<key>voicetime</key>
+			<string>0</string>
+			<key>voiceuri</key>
+			<string></string>
+			<key>weixin_url</key>
+			<string>http://a.f.zk111.net/share/23587786.html?wx.qq.com&amp;appname=</string>
+			<key>width</key>
+			<string>1066</string>
+		</dict>
+		<dict>
+			<key>bimageuri</key>
+			<string></string>
+			<key>bookmark</key>
+			<string>44</string>
+			<key>cache_version</key>
+			<integer>2</integer>
+			<key>cai</key>
+			<string>53</string>
+			<key>cdn_img</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eee4dad4c0.gif</string>
+			<key>comment</key>
+			<string>105</string>
+			<key>create_time</key>
+			<string>2017-02-11 18:58:21</string>
+			<key>created_at</key>
+			<string>2017-02-13 19:34:02</string>
+			<key>ding</key>
+			<string>1078</string>
+			<key>favourite</key>
+			<string>44</string>
+			<key>gifFistFrame</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eee4dad4c0_a_1.jpg</string>
+			<key>hate</key>
+			<string>53</string>
+			<key>height</key>
+			<string>273</string>
+			<key>id</key>
+			<string>23607990</string>
+			<key>image0</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eee4dad4c0.gif</string>
+			<key>image1</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eee4dad4c0.gif</string>
+			<key>image2</key>
+			<string>http://wimg.spriteapp.cn/ugc/2017/02/11/589eee4dad4c0.gif</string>
+			<key>is_gif</key>
+			<string>1</string>
+			<key>love</key>
+			<string>1078</string>
+			<key>name</key>
+			<string>百思终极大魔王</string>
+			<key>original_pid</key>
+			<string>0</string>
+			<key>passtime</key>
+			<string>2017-02-13 19:34:02</string>
+			<key>profile_image</key>
+			<string>http://wimg.spriteapp.cn/profile/large/2016/11/20/5831078881f2c_mini.jpg</string>
+			<key>repost</key>
+			<string>125</string>
+			<key>screen_name</key>
+			<string>百思终极大魔王</string>
+			<key>status</key>
+			<string>4</string>
+			<key>t</key>
+			<integer>1486985642</integer>
+			<key>tag</key>
+			<string></string>
+			<key>text</key>
+			<string>以后小学生的殴斗业务，老子不接了~</string>
 			<key>theme_id</key>
 			<string>0</string>
 			<key>theme_name</key>
@@ -1747,7 +1789,7 @@
 			<key>type</key>
 			<string>10</string>
 			<key>user_id</key>
-			<string>19531820</string>
+			<string>18748369</string>
 			<key>videotime</key>
 			<string>0</string>
 			<key>videouri</key>
@@ -1759,9 +1801,9 @@
 			<key>voiceuri</key>
 			<string></string>
 			<key>weixin_url</key>
-			<string>http://a.f.winapp111.net/share/23564426.html?wx.qq.com&amp;appname=</string>
+			<string>http://b.f.zk111.cn/share/23607990.html?wx.qq.com&amp;appname=</string>
 			<key>width</key>
-			<string>864</string>
+			<string>200</string>
 		</dict>
 	</array>
 </dict>

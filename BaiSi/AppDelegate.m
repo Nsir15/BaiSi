@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "NXMainController.h"
 #import "NXAdViewController.h"
+#import <AFNetworking.h>
+
 @interface AppDelegate ()
 
 @end
@@ -26,6 +28,9 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = advc;
     [self.window makeKeyAndVisible];
+    
+    //开启网络监控
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     return YES;
 }
 

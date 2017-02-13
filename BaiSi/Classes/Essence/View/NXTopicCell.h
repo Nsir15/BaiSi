@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+
 @class NXTopicModel;
 @interface NXTopicCell : UITableViewCell
 @property (nonatomic ,strong)NXTopicModel *topicModel;

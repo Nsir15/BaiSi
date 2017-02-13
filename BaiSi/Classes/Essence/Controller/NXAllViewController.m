@@ -110,23 +110,16 @@ static NSString * const topicCell = @"topcCell";
     return cell;
 }
 
+/**
+ 这个方法的特点：
+ 1.默认情况下
+ 1> 每次刷新表格时，有多少数据，这个方法就一次性调用多少次（比如有100条数据，每次reloadData时，这个方法就会一次性调用100次）
+ 2> 每当有cell进入屏幕范围内，就会调用一次这个方法
+ */
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    //这里进行高度计算
-    CGFloat cellHeight = 0;
-    
-    NXTopicCell * cell = (NXTopicCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
-    cellHeight += 52;//cell.topContainerView.nx_height;
-    //计算内容label 的高度
-    CGSize maxSize = CGSizeMake(cell.nx_width - NXMargin *2, 1300); //这里的Y 值是指最大的范围
-    cellHeight += [cell.text_label.text boundingRectWithSize:maxSize options: NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:cell.text_label.font} context:nil].size.height + NXMargin;
-    //这里加上中间内容的高度
-    cellHeight += 100;
-    //加上底部的高度
-    cellHeight += 35 + NXMargin * 2;//cell.bottomContainerView.nx_height + NXMargin * 2;
-    NXLog(@"cell-height:%f",cell.nx_height);
-    return cellHeight;
-//    return 200;
+    NXTopicModel * model = self.dataArray[indexPath.row];
+    return model.cellHeight;
 }
 #pragma mark -- scrollView  delegate  在这里处理上拉加载和下拉刷新
 
@@ -179,6 +172,10 @@ static NSString * const topicCell = @"topcCell";
 
 }
 
+- (NSUInteger)type{
+    return TopicType_all;
+}
+
 - (void)refreshData{
     //重新请求数据
     
@@ -186,13 +183,13 @@ static NSString * const topicCell = @"topcCell";
     NSMutableDictionary * params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"type"] = @"1";
+    params[@"type"] = @([self type]);
     [request requetsType:GET url:@"http://api.budejie.com/api/api_open.php" params:params finish:^(NSDictionary *result, NSError *error) {
         if (!error) {
            
             //结束刷新
             [self endReFresh];
-//            NXWriteToFile(homeData);
+            NXWriteToFile(homeData);
           _dataArray = [NXTopicModel mj_objectArrayWithKeyValuesArray:result[@"list"]];
             _maxtime = result[@"info"][@"maxtime"];
             [self.tableView reloadData];
@@ -219,7 +216,7 @@ static NSString * const topicCell = @"topcCell";
             
             //结束刷新
             [self endLoading];
-            //            NXWriteToFile(homeData);
+//                        NXWriteToFile(homeData);
             [_dataArray addObjectsFromArray:[NXTopicModel mj_objectArrayWithKeyValuesArray:result[@"list"]]];
             _maxtime = result[@"info"][@"maxtime"];
             [self.tableView reloadData];

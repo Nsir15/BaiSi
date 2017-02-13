@@ -10,4 +10,5 @@
 
 @interface UIImage (Circle)
 + (instancetype)circleImage:(UIImage *)image;
+
 @end

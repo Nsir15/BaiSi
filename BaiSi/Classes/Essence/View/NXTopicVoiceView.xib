@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NXTopicVoiceView">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="162"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHY-XT-7cr">
+                    <rect key="frame" x="0.0" y="0.0" width="285" height="162"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uvF-Tb-tOp">
+                            <rect key="frame" x="0.0" y="0.0" width="285" height="162"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGg-6m-VGs" userLabel="playButton">
+                            <rect key="frame" x="111.5" y="49.5" width="63" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="63" id="I3p-gk-SJ0"/>
+                                <constraint firstAttribute="width" constant="63" id="j3k-d0-fY6"/>
+                            </constraints>
+                            <state key="normal" image="playButtonPlay" backgroundImage="playButton"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5555次播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hck-O0-8XC" userLabel="播放次数">
+                            <rect key="frame" x="197.5" y="5" width="82.5" height="18"/>
+                            <color key="backgroundColor" red="0.11353902284263961" green="0.11353902284263961" blue="0.11353902284263961" alpha="0.43040988869863012" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOv-4f-Kqh" userLabel="音频时长">
+                            <rect key="frame" x="238.5" y="139" width="41" height="18"/>
+                            <color key="backgroundColor" red="0.1135390228" green="0.1135390228" blue="0.1135390228" alpha="0.43040988870000002" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uvF-Tb-tOp" secondAttribute="trailing" id="1s6-Qq-aAg"/>
+                        <constraint firstAttribute="trailing" secondItem="Hck-O0-8XC" secondAttribute="trailing" constant="5" id="29h-yK-WVl"/>
+                        <constraint firstItem="tGg-6m-VGs" firstAttribute="centerX" secondItem="mHY-XT-7cr" secondAttribute="centerX" id="TTv-m8-fkw"/>
+                        <constraint firstItem="Hck-O0-8XC" firstAttribute="top" secondItem="mHY-XT-7cr" secondAttribute="top" constant="5" id="d6v-jj-WuO"/>
+                        <constraint firstItem="uvF-Tb-tOp" firstAttribute="leading" secondItem="mHY-XT-7cr" secondAttribute="leading" id="htw-N2-s52"/>
+                        <constraint firstItem="uvF-Tb-tOp" firstAttribute="top" secondItem="mHY-XT-7cr" secondAttribute="top" id="kNG-A8-bTt"/>
+                        <constraint firstAttribute="bottom" secondItem="bOv-4f-Kqh" secondAttribute="bottom" constant="5" id="kxy-7c-lJv"/>
+                        <constraint firstAttribute="trailing" secondItem="bOv-4f-Kqh" secondAttribute="trailing" constant="5" id="r1a-m3-8V3"/>
+                        <constraint firstAttribute="bottom" secondItem="uvF-Tb-tOp" secondAttribute="bottom" id="rD7-PM-Din"/>
+                        <constraint firstItem="tGg-6m-VGs" firstAttribute="centerY" secondItem="mHY-XT-7cr" secondAttribute="centerY" id="t2K-Hk-Q1a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mHY-XT-7cr" secondAttribute="bottom" id="1gE-xR-2y4"/>
+                <constraint firstItem="mHY-XT-7cr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="X9s-XB-d8P"/>
+                <constraint firstItem="mHY-XT-7cr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z9k-d0-Sif"/>
+                <constraint firstAttribute="trailing" secondItem="mHY-XT-7cr" secondAttribute="trailing" id="fH3-yb-RW1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="uvF-Tb-tOp" id="Wix-Fz-o9x"/>
+                <outlet property="playCountLabel" destination="Hck-O0-8XC" id="CAa-Ue-szf"/>
+                <outlet property="voicetimeLabel" destination="bOv-4f-Kqh" id="giF-7I-d7k"/>
+            </connections>
+            <point key="canvasLocation" x="-5.5" y="-160"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="playButton" width="63" height="63"/>
+        <image name="playButtonPlay" width="30" height="30"/>
+    </resources>
+</document>

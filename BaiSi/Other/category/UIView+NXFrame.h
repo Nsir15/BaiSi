@@ -16,5 +16,6 @@
 @property (nonatomic ,assign)CGFloat nx_height;
 @property (nonatomic ,assign)CGFloat nx_width;
 
-
+/*从xib加载view*/
++(instancetype)NX_ViewFromXib;
 @end
