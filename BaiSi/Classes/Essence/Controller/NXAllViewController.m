@@ -11,6 +11,7 @@
 #import <MJExtension/MJExtension.h>
 #import "NXTopicModel.h"
 #import "NXTopicCell.h"
+#import <SDImageCache.h>
 static NSString * const cellID = @"allViewCell";
 static NSString * const topicCell = @"topcCell";
 @interface NXAllViewController ()
@@ -128,6 +129,11 @@ static NSString * const topicCell = @"topcCell";
    
     [self dealHeaderRefresh];
     [self dealFooterLoading];
+}
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    //清楚内存缓存，稳定内存
+    [[SDImageCache sharedImageCache] clearMemory];
 }
 
 //停止拖拽

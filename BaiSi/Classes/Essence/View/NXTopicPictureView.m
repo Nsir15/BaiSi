@@ -10,6 +10,7 @@
 #import "NXTopicModel.h"
 #import <UIImageView+WebCache.h>
 #import <AFNetworkReachabilityManager.h>
+#import "NXBigPictureViewController.h"
 @interface NXTopicPictureView()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIImageView *gifLogo;
@@ -17,6 +18,14 @@
 
 @end
 @implementation NXTopicPictureView
+
+- (void)awakeFromNib
+{
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(bigPicture)];
+    [self.imageView addGestureRecognizer:tap];
+    self.imageView.userInteractionEnabled = YES;  //这个必须得打开
+}
+
 - (void)setTopicModel:(NXTopicModel *)topicModel
 {
     _topicModel = topicModel;
@@ -67,6 +76,13 @@
         self.imageView.clipsToBounds = NO;
     }
     
+}
+
+
+- (void)bigPicture{
+    NXBigPictureViewController * bigVc = [[NXBigPictureViewController alloc]init];
+    bigVc.model = self.topicModel;
+    [self.window.rootViewController  presentViewController:bigVc animated:YES completion:nil];
 }
 
 @end

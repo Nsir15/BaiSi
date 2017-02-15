@@ -21,6 +21,8 @@
 		B92D41651E4D590D009F6F6D /* NXPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D41641E4D590D009F6F6D /* NXPictureViewController.m */; };
 		B92D41681E4D5927009F6F6D /* NXJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D41671E4D5927009F6F6D /* NXJokeViewController.m */; };
 		B92D416C1E4D6BDD009F6F6D /* NXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D416B1E4D6BDD009F6F6D /* NXConst.m */; };
+		B93342391E54A46D0074E95D /* NXBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93342371E54A46D0074E95D /* NXBigPictureViewController.m */; };
+		B933423A1E54A46D0074E95D /* NXBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93342381E54A46D0074E95D /* NXBigPictureViewController.xib */; };
 		B93A8BA31E4EE9FD00072600 /* NXTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */; };
 		B93A8BA71E50308000072600 /* NXTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A8BA51E50308000072600 /* NXTopicCell.m */; };
 		B93A8BA81E50308000072600 /* NXTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93A8BA61E50308000072600 /* NXTopicCell.xib */; };
@@ -127,6 +129,9 @@
 		B92D41671E4D5927009F6F6D /* NXJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXJokeViewController.m; sourceTree = "<group>"; };
 		B92D416A1E4D6BDD009F6F6D /* NXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXConst.h; sourceTree = "<group>"; };
 		B92D416B1E4D6BDD009F6F6D /* NXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXConst.m; sourceTree = "<group>"; };
+		B93342361E54A46D0074E95D /* NXBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBigPictureViewController.h; sourceTree = "<group>"; };
+		B93342371E54A46D0074E95D /* NXBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBigPictureViewController.m; sourceTree = "<group>"; };
+		B93342381E54A46D0074E95D /* NXBigPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXBigPictureViewController.xib; sourceTree = "<group>"; };
 		B93A8BA11E4EE9FD00072600 /* NXTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicModel.h; sourceTree = "<group>"; };
 		B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTopicModel.m; sourceTree = "<group>"; };
 		B93A8BA41E50308000072600 /* NXTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicCell.h; sourceTree = "<group>"; };
@@ -292,6 +297,9 @@
 				B92D41641E4D590D009F6F6D /* NXPictureViewController.m */,
 				B92D41661E4D5927009F6F6D /* NXJokeViewController.h */,
 				B92D41671E4D5927009F6F6D /* NXJokeViewController.m */,
+				B93342361E54A46D0074E95D /* NXBigPictureViewController.h */,
+				B93342371E54A46D0074E95D /* NXBigPictureViewController.m */,
+				B93342381E54A46D0074E95D /* NXBigPictureViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -824,6 +832,7 @@
 				B9D4A65D1E461A71002121BA /* NXRecommendCell.xib in Resources */,
 				B9B1A55D1DF993E40033E4ED /* Controllers.plist in Resources */,
 				B9D4A6481E45C587002121BA /* LaunchImage-700-568h@2x.png in Resources */,
+				B933423A1E54A46D0074E95D /* NXBigPictureViewController.xib in Resources */,
 				B93A8BB91E51D08E00072600 /* NXTopicVideoView.xib in Resources */,
 				B9D4A6471E45C587002121BA /* LaunchImage-568h@2x.png in Resources */,
 				B9523CF21DEC842E00A0D637 /* LaunchScreen.storyboard in Resources */,
@@ -1036,6 +1045,7 @@
 				B9A056EA1E4778350015F3A8 /* UITextField+NXTextField.m in Sources */,
 				B90EE9BA1E488FE900C2318E /* NXSquareCell.m in Sources */,
 				B9523CE71DEC842E00A0D637 /* AppDelegate.m in Sources */,
+				B93342391E54A46D0074E95D /* NXBigPictureViewController.m in Sources */,
 				B9D4A62E1E45C01D002121BA /* NXAdViewController.m in Sources */,
 				B94126E01DF991CB004D7885 /* main.m in Sources */,
 				B9A056E11E474CF90015F3A8 /* NXButton.m in Sources */,
