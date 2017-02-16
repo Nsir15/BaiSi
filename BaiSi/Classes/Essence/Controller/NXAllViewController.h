@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Marauder. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NXTopicViewController.h"
 
-@interface NXAllViewController : UITableViewController
+@interface NXAllViewController : NXTopicViewController
 
 @end

@@ -23,6 +23,7 @@
 		B92D416C1E4D6BDD009F6F6D /* NXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D416B1E4D6BDD009F6F6D /* NXConst.m */; };
 		B93342391E54A46D0074E95D /* NXBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93342371E54A46D0074E95D /* NXBigPictureViewController.m */; };
 		B933423A1E54A46D0074E95D /* NXBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93342381E54A46D0074E95D /* NXBigPictureViewController.xib */; };
+		B933423D1E55F7630074E95D /* NXTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B933423C1E55F7630074E95D /* NXTopicViewController.m */; };
 		B93A8BA31E4EE9FD00072600 /* NXTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */; };
 		B93A8BA71E50308000072600 /* NXTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A8BA51E50308000072600 /* NXTopicCell.m */; };
 		B93A8BA81E50308000072600 /* NXTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93A8BA61E50308000072600 /* NXTopicCell.xib */; };
@@ -132,6 +133,8 @@
 		B93342361E54A46D0074E95D /* NXBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBigPictureViewController.h; sourceTree = "<group>"; };
 		B93342371E54A46D0074E95D /* NXBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBigPictureViewController.m; sourceTree = "<group>"; };
 		B93342381E54A46D0074E95D /* NXBigPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXBigPictureViewController.xib; sourceTree = "<group>"; };
+		B933423B1E55F7630074E95D /* NXTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicViewController.h; sourceTree = "<group>"; };
+		B933423C1E55F7630074E95D /* NXTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTopicViewController.m; sourceTree = "<group>"; };
 		B93A8BA11E4EE9FD00072600 /* NXTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicModel.h; sourceTree = "<group>"; };
 		B93A8BA21E4EE9FD00072600 /* NXTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTopicModel.m; sourceTree = "<group>"; };
 		B93A8BA41E50308000072600 /* NXTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTopicCell.h; sourceTree = "<group>"; };
@@ -287,6 +290,8 @@
 			children = (
 				B94126E11DF99236004D7885 /* NXEssenceController.h */,
 				B94126E21DF99236004D7885 /* NXEssenceController.m */,
+				B933423B1E55F7630074E95D /* NXTopicViewController.h */,
+				B933423C1E55F7630074E95D /* NXTopicViewController.m */,
 				B92D415A1E4D58DB009F6F6D /* NXAllViewController.h */,
 				B92D415B1E4D58DB009F6F6D /* NXAllViewController.m */,
 				B92D415D1E4D58E6009F6F6D /* NXVideoViewController.h */,
@@ -1027,6 +1032,7 @@
 				B9A056DC1E4740EA0015F3A8 /* NXFastLoginView.m in Sources */,
 				B92D41681E4D5927009F6F6D /* NXJokeViewController.m in Sources */,
 				B95FCB341E44C38800EC2F15 /* NXNavigationController.m in Sources */,
+				B933423D1E55F7630074E95D /* NXTopicViewController.m in Sources */,
 				B9A056E71E4777BD0015F3A8 /* NXTextField.m in Sources */,
 				B92D41651E4D590D009F6F6D /* NXPictureViewController.m in Sources */,
 				B9A056E41E474E010015F3A8 /* UIView+NXFrame.m in Sources */,
